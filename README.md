@@ -16,13 +16,36 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## To run locally in Ubuntu (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
 1. Run `bundle clean` to clean up the directory (no need to run `--force`)
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+
+## To run locally in Windows (not on GitHub Pages, to serve on your own computer)
+
+### Install Ruby & Devkit
+1. Download and install Ruby and the associated Devkit from [RubyInstaller](https://rubyinstaller.org/downloads/).
+1. Keep all options selected during the Ruby install.
+1. Click the checkbox to run ridk install on the final screen of the Ruby install.
+1. In the command window that appears, choose option 3 to install MSYS2 and the MINGW development toolchain.
+
+
+### Install jekyll
+1. Open an new command window and install Jekyll on Windows with the following command: `gem install jekyll bundler`.
+1. Verify the install by issuing `jekyll -v` command.
+
+### Start the liveserver
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `bundle add webrick` since webrick is no longer no longer bundled gems or standard librarie in Ruby>=3.0 (see [Ruby 3.0.0 Released](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)).
+1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. 
+
+### Note
+1. If you encounter the error `Permission denied - bind(2) for 127.0.0.1:4000`, please run your command prompt as administrator.
+2. I encoutnered errors with a higher version of jekyll (e.g., 3.9.3). The jekyll version is set to `jekyll<3.9.2` in this repository (see also [Pin jekyll version <3.9.2](https://github.com/academicpages/academicpages.github.io/pull/944/commits/afefb7c37f89305063ce8fff39c4bf407d0120ac)).
 
 # Changelog -- bugfixes and enhancements
 
