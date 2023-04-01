@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yixi CAI\'s Homepage"
+title                    : "Yixi CAI Homepage"
 title_separator          : "-"
 name                     : &name "Yixi CAI"
 description              : &description "personal description"
