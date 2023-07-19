@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Exange Study in Automation, Lund University, 2019
+* B.Eng. in Automation, Beihang University, 2020
+* Ph.D in Mechanical Engineering, University of Hong Kong, 2024 (expected)
 
-Work experience
+<!-- Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
@@ -25,16 +25,8 @@ Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -54,6 +46,19 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Skills
 ======
-* Currently signed in to 43 different slack teams
+* C++
+* Robotics
+  * UAV System Identification & Control
+  * LiDAR SLAM
+  * Mapping
+* CUDA C++
+
+Scholarly Reviews
+======
+* IEEE Robotics and Automation Letters
+* IEEE/ASME Transactions on Mechatronics
+* IEEE Transactions on Intelligent Vehicles
+* IEEE/RSJ International Conference on Intelligent Robots and Systems 2023
+* IEEE/RSJ International Conference on Intelligent Robots and Systems 2022
