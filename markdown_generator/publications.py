@@ -66,8 +66,17 @@ for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
+    full_excerpt = str(html_escape(item.excerpt))
     year = item.pub_date[:4]
     
+    max_len = 150
+    last_character = 0
+    i = 0
+    while (i < min(max_len,len(full_excerpt))):
+        if (full_excerpt[i] == ' '):
+            last_character = i
+        i = i + 1
+
     ## YAML variables
     
     md = "---\ntitle: \""   + item.title + '"\n'
@@ -77,7 +86,8 @@ for row, item in publications.iterrows():
     md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+        # md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+        md += "\nexcerpt: '" + full_excerpt[0:last_character] + " ...'"
     
     md += "\ndate: " + str(item.pub_date) 
     
@@ -98,6 +108,7 @@ for row, item in publications.iterrows():
     ## Markdown description for individual page
         
     if len(str(item.excerpt)) > 5:
+        md += "\n## Abstract\n"
         md += "\n" + html_escape(item.excerpt) + "\n"
         
     md_filename = os.path.basename(md_filename)
