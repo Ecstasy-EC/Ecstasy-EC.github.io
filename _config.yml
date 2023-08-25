@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yixi CAI's Homepage"
+title                    : "Yixi Cai's Homepage"
 title_separator          : "-"
-name                     : &name "Yixi CAI"
+name                     : &name "Yixi Cai"
 description              : &description "personal description"
 url                      : http://127.0.0.1:4000/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yixi CAI 蔡逸熙"
+  name             : "Yixi Cai 蔡逸熙"
   avatar           : "profile.jpg"
   bio              : "Ph.D. Candidate at MaRS Lab, University of Hong Kong."
   location         : "HW-LG02, University of Hong Kong"
