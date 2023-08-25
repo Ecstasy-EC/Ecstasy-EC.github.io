@@ -110,6 +110,16 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\n## Abstract\n"
         md += "\n" + html_escape(item.excerpt) + "\n"
+
+    if len(str(item.video)) > 5:
+        md += "\n## Video\n"
+        video_url = str(item.video)
+        for i in range(1, len(video_url)):
+            if (video_url[i] == '=' and video_url[i-1] == 'v'):
+                video_id = video_url[i+1:len(video_url)]
+        # print(video_id)
+        md += "[![Watch the video](https://img.youtube.com/vi/" + video_id + "/maxresdefault.jpg)](" + video_url+ ")"
+        md += "\n"
         
     md_filename = os.path.basename(md_filename)
        
