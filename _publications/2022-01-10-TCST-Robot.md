@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-01-10-TCST-Robot
 excerpt: 'This article presents a generic motion model to capture mobile robots&apos; dynamic behaviors (translation and rotation). The model is based on ...'
 date: 2022-01-10
-venue: 'IEEE Transactions on Control Systems Technology'
+venue: 'IEEE Transactions on Control Systems Technology (TCST)'
 paperurl: 'https://ieeexplore.ieee.org/document/9676487'
 paperurltext: '[pdf]'
 paperbibtex: 'https://scholar.googleusercontent.com/scholar.bib?q=info:du0fIlL7gzMJ:scholar.google.com/&amp;output=citation&amp;scisdr=Cm3pnLgeELeo6o21y_Y:AGlGAw8AAAAAZHCw0_ZU1F1LBr0HFwXcGrti7aI&amp;scisig=AGlGAw8AAAAAZHCw01DaVbIlsAWE3aBw26Rh1Ws&amp;scisf=4&amp;ct=citation&amp;cd=-1'
