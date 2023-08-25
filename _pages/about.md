@@ -14,7 +14,7 @@ Previsouly I received my Bachelor's Degree in School of Automation Science and E
 
 # News
 - 2023.07.18: The preprint version of my new research "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is available on [arxiv](https://arxiv.org/abs/2307.08493) with open-sourced codes released on [Github](https://github.com/hku-mars/D-Map).
-- 2023.06.30: Our work "Gemini II: Design, Modeling, and Control of a Compact Yet Efficient Servoless Bi-copter," is selected as the ***Best Paper Award Finalist*** in ***IEEE/ASME Transactions on Mechatronics (TMECH)***.
+- 2023.06.30: Our work "Gemini II: Design, Modeling, and Control of a Compact Yet Efficient Servoless Bi-copter," is selected as the *Best Paper Award Finalist* in ***IEEE/ASME Transactions on Mechatronics (TMECH)***.
 - 2023.03.15: Our work "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation" is published on and visually featured by ***Science Robotics*** [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf).
 
 
