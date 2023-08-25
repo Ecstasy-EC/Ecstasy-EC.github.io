@@ -9,12 +9,3 @@ location: "HKSAR, China"
 ---
 
 This course aims to cover: modelling of robot kinematics / dynamics; programming on robot embedded control units; characterization and specification of robot actuation; sensing interface for robot feedback control; implementation of machine intelligence algorithms.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

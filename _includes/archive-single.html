@@ -53,10 +53,10 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.paperurltext and post.paperbibtex%}
-    <p>Recommended citation:</p>
+    <p><i>Recommended citation:</i></p>
     <p>{{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurltext }}</a> <a href="{{ post.paperbibtex }}">[bib]</a>  </p>
     {% elsif post.citation and post.paperurl and post.paperurltext %}
-    <p>Recommended citation:</p>
+    <p><i>Recommended citation:</i></p>
     <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurltext }}</u></a></p>    
     {% elsif post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
