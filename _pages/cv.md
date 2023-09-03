@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Exange Study in Automation, Lund University, 2019
+* Exange Study in Lund University, 2019
 * B.Eng. in Automation, Beihang University, 2020
 * Ph.D in Mechanical Engineering, University of Hong Kong, 2024 (expected)
 
@@ -57,8 +57,9 @@ Skills
 
 Scholarly Reviews
 ======
-* IEEE Robotics and Automation Letters
-* IEEE/ASME Transactions on Mechatronics
-* IEEE Transactions on Intelligent Vehicles
-* IEEE/RSJ International Conference on Intelligent Robots and Systems 2023
-* IEEE/RSJ International Conference on Intelligent Robots and Systems 2022
+* Journal of Field Robotics (JFR)
+* IEEE Robotics and Automation Letters (RAL)
+* IEEE/ASME Transactions on Mechatronics (TMECH)
+* IEEE Transactions on Intelligent Vehicles (TIV)
+* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2023
+* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2022
