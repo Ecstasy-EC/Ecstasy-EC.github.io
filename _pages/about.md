@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. Canditate at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/), Department of Mechanical Engineering, University of Hong Kong, supervised by [Dr. Fu Zhang](https://www.mech.hku.hk/academic-staff/Zhang-F) and co-supervised by [Prof. James Lam](https://meweb.hku.hk/jlam/). My recent research mainly focuses on LiDAR-based mapping with applications for robots and autonomous driving. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics!
+I am a fourth-year Ph.D. Canditate at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/), Department of Mechanical Engineering, University of Hong Kong, supervised by [Dr. Fu Zhang](https://www.mech.hku.hk/academic-staff/Zhang-F) and co-supervised by [Prof. James Lam](https://meweb.hku.hk/jlam/). My recent research mainly focuses on LiDAR-based mapping with applications for robots and autonomous driving. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics!
 
-Previsouly I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University (BUAA) in July, 2020. 
+Previsouly I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University (formerly known as Beijing University of Aeronautics and Astronautics) in July, 2020. 
 
 # News
 - 2023.07.18: The preprint version of my new research "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is available on [arxiv](https://arxiv.org/abs/2307.08493) with open-sourced codes released on [Github](https://github.com/hku-mars/D-Map).
