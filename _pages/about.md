@@ -21,7 +21,7 @@ Previsouly I received my Bachelor's Degree in School of Automation Science and E
 
 
 # Selected Research
-- Lu, G., Cai, Y., Chen, N., Kong, F., Ren, Y., & Zhang, F., "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights", in ***International Journal of Robotics Research (IJRR)***, 2023. [[Preprint]](https://arxiv.org/pdf/2212.11552.pdf) 
+- Lu, G., **Cai, Y.**, Chen, N., Kong, F., Ren, Y., & Zhang, F., "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights", in ***International Journal of Robotics Research (IJRR)***, 2023. [[Preprint]](https://arxiv.org/pdf/2212.11552.pdf) [[Video]](https://www.youtube.com/watch?v=2x_bLbVuyrk)
 - **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" [[Link]](https://arxiv.org/abs/2307.08493) [[Github]](https://github.com/hku-mars/D-Map) [[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
 - Chen, N., Kong, F., Xu, W., **Cai, Y.**, Li, H., He, D., Qin, Y. & Zhang, F. "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation," in ***Science Robotics***, 2023. [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf) [[Video]](https://www.youtube.com/watch?v=lrEJnJrRJsQ)
 
