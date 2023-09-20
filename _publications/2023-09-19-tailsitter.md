@@ -8,7 +8,7 @@ venue: 'International Journal of Robotics Research'
 paperurl: 'https://arxiv.org/pdf/2212.11552.pdf'
 paperurltext: '[pdf]'
 paperbibtex: 'https://scholar.googleusercontent.com/scholar.bib?q=info:Qb3Iodb5HXMJ:scholar.google.com/&amp;output=citation&amp;scisdr=ClEjYb5MELeo6_R1yzM:AFWwaeYAAAAAZQlw0zNsfxwMWf0I7ZrhF5j4U2o&amp;scisig=AFWwaeYAAAAAZQlw03CJwIGKeYpGN29shWIHkpQ&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=zh-CN'
-citation: 'Lu G, Cai Y, Chen N, et al. Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights[J]. arXiv preprint arXiv:2212.11552, 2022.'
+citation: 'Lu, G., Cai, Y., Chen, N., Kong, F., Ren, Y., &amp; Zhang, F. (2022). Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights. arXiv preprint arXiv:2212.11552.'
 ---
 ## Abstract
 
