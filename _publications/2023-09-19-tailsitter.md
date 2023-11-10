@@ -5,7 +5,7 @@ permalink: /publication/2023-09-19-tailsitter
 excerpt: 'We address the theoretical and practical problems related to the trajectory generation and tracking control of tail-sitter UAVs. Theoretically, we ...'
 date: 2023-09-19
 venue: 'International Journal of Robotics Research'
-paperurl: 'https://arxiv.org/pdf/2212.11552.pdf'
+paperurl: 'https://doi.org/10.1177/02783649231207655'
 paperurltext: '[pdf]'
 paperbibtex: 'https://scholar.googleusercontent.com/scholar.bib?q=info:Qb3Iodb5HXMJ:scholar.google.com/&amp;output=citation&amp;scisdr=ClEjYb5MELeo6_R1yzM:AFWwaeYAAAAAZQlw0zNsfxwMWf0I7ZrhF5j4U2o&amp;scisig=AFWwaeYAAAAAZQlw03CJwIGKeYpGN29shWIHkpQ&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=zh-CN'
 citation: 'Lu, G., Cai, Y., Chen, N., Kong, F., Ren, Y., &amp; Zhang, F. (2022). Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights. arXiv preprint arXiv:2212.11552.'
