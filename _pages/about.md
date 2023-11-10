@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. Candidate at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/), Department of Mechanical Engineering, University of Hong Kong, supervised by [Dr. Fu Zhang](https://www.mech.hku.hk/academic-staff/Zhang-F) and co-supervised by [Prof. James Lam](https://meweb.hku.hk/jlam/). My recent research mainly focuses on LiDAR-based mapping with applications for robots and autonomous driving. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics!
+I am a fourth-year Ph.D. Candidate at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/), Department of Mechanical Engineering, University of Hong Kong, supervised by [Dr. Fu Zhang](https://www.mech.hku.hk/academic-staff/Zhang-F) and co-supervised by [Prof. James Lam](https://meweb.hku.hk/jlam/). My recent research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics. Previsouly I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University (formerly known as Beijing University of Aeronautics and Astronautics) in July, 2020. 
 
-Previsouly I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University (formerly known as Beijing University of Aeronautics and Astronautics) in July, 2020. 
+**I am currently seeking a postdoctoral position** to further my journey in the field of LiDAR mapping or any related research. I warmly welcome any opportunity in this domain and would be delighted to discuss potential collaborations. Please feel free to contact me if you are interested in exploring my research further.
 
 # News
 - 2023.09.30: Our paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
