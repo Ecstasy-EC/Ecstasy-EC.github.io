@@ -15,7 +15,7 @@ My recent research mainly focuses on LiDAR-based mapping with applications on Ro
 **I am currently seeking a postdoctoral position** to further my journey in the field of LiDAR mapping or any related research. I warmly welcome any opportunity in this domain and would be delighted to discuss potential collaborations. Please feel free to contact me if you are interested in exploring my research further.
 
 # News
-- 2023.12.26： Our paper "A Multi-sensor Aerial Robots SLAM Dataset for LiDAR-Visual-Inettial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***.
+- 2023.12.26： Our paper "A Multi-sensor Aerial Robots SLAM Dataset for LiDAR-Visual-Inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***.
 - 2023.09.30: Our paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
 - 2023.09.19:
   - Our paper "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights" is accepted for publication in ***International Journal of Robotics Research (IJRR)***. [[Link]](https://doi.org/10.1177/02783649231207655)
