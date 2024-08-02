@@ -12,19 +12,15 @@ I am a fourth-year Ph.D. Candidate at [Mechatronics and Robotic Systems (MaRS) L
 
 My recent research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
-**I am currently seeking a postdoctoral position** to further my journey in the field of LiDAR mapping or any related research. I warmly welcome any opportunity in this domain and would be delighted to discuss potential collaborations. Please feel free to contact me if you are interested in exploring my research further.
+<!-- **I am currently seeking for potential collaboration in semantic mapping!  -->
 
 # News
 - 2024.05.03： It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
 - 2023.12.26： Our paper "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***[[Link]](https://journals.sagepub.com/doi/10.1177/02783649241227968).
-- 2023.09.30: Our paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
+- 2023.09.30: My first-authored paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
 - 2023.09.19:
   - Our paper "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights" is accepted for publication in ***International Journal of Robotics Research (IJRR)***. [[Link]](https://doi.org/10.1177/02783649231207655)
   - Our paper "ImMesh: An Immediate LiDAR Localization and Meshing Frameworks" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10304337)
-- 2023.06.30: Our paper "Gemini II: Design, Modeling, and Control of a Compact Yet Efficient Servoless Bi-copter," is selected as the *Best Paper Award Finalist* in ***IEEE/ASME Transactions on Mechatronics (TMECH)***.
-- 2023.03.15: Our paper "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation" is published on and visually featured by ***Science Robotics***. [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf)
-
-
 
 # Selected Research
 - **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10286126) [[Github]](https://github.com/hku-mars/D-Map) [[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
