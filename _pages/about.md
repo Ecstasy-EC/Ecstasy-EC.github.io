@@ -15,6 +15,7 @@ My recent research mainly focuses on LiDAR-based mapping with applications on Ro
 <!-- **I am currently seeking for potential collaboration in semantic mapping!  -->
 
 # News
+- 2024.08.29： I have successfully defended my PhD!
 - 2024.05.03： It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
 - 2023.12.26： Our paper "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***[[Link]](https://journals.sagepub.com/doi/10.1177/02783649241227968).
 - 2023.09.30: My first-authored paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
