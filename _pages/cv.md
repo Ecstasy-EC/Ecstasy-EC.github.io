@@ -56,11 +56,11 @@ Skills
 Fellowships & Awards
 ======
 <!-- * Digital Futures Postdoc Fellowships, 2025-2026 -->
-* RSS Pioneer in Robotics: Science and Systems 2024
-* Best Paper Award Finalist in IEEE/ASME Transactions on Mechatronics, 2022
-* Y S and Christabel Lung Postgraduate Scholarship for Engineering Students 2020-2021.
-* Hui Pun Hing Postgraduate Fellowship (Mainland Collaborations), 2020-2021
-* Postgraduate Scholarships, University of Hong Kong, 2020-2024
+* <strong> RSS Pioneer </strong> in Robotics: Science and Systems 2024
+* <strong>Best Paper Award Finalist</strong> in IEEE/ASME Transactions on Mechatronics, 2022
+* <strong>Y S and Christabel Lung Postgraduate Scholarship</strong> for Engineering Students 2020-2021.
+* <strong>Hui Pun Hing Postgraduate Fellowship (Mainland Collaborations)</strong>, 2020-2021
+* <strong>Postgraduate Scholarships</strong>, University of Hong Kong, 2020-2024
 
 Scholarly Reviews
 ======
