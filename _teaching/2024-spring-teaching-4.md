@@ -2,9 +2,9 @@
 title: "MECH3433 Robotics, drones and autonomous ground vehicles"
 collection: teaching
 type: "Teaching Assistant in Undergraduate Course"
-permalink: /teaching/2022-spring-teaching-2
+permalink: /teaching/2024-spring-teaching-4
 venue: "University of Hong Kong, Department of Mechanical Engineering"
-date: 2022-04-08
+date: 2024-03-25
 location: "HKSAR, China"
 ---
 

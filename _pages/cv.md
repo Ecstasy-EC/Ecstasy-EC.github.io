@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Exange Study in Lund University, 2019
 * B.Eng. in Automation, Beihang University, 2020
-* Ph.D in Mechanical Engineering, University of Hong Kong, 2024 (expected)
+* Ph.D in Robotics, University of Hong Kong, 2024
 
 <!-- Work experience
 ======
@@ -50,16 +49,17 @@ Skills
 ======
 * C++
 * Robotics
-  * UAV System Identification & Control
   * LiDAR SLAM
   * Mapping
 * CUDA C++
 
 Scholarly Reviews
 ======
+* IEEE Transactions on Robotics (T-RO)
 * Journal of Field Robotics (JFR)
-* IEEE Robotics and Automation Letters (RAL)
 * IEEE/ASME Transactions on Mechatronics (TMECH)
+* IEEE Robotics and Automation Letters (RAL)
 * IEEE Transactions on Intelligent Vehicles (TIV)
-* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2023
-* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2022
+* IEEE Transactions on Aerospace and Electronic Systems
+* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2022-2024
+* IEEE International Conference on Robotics and Automation (ICRA) 2024
