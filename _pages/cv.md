@@ -53,7 +53,7 @@ Skills
   * Mapping
 * CUDA C++
 
-Fellowship & Awards
+Fellowships & Awards
 ======
 <!-- * Digital Futures Postdoc Fellowships, 2025-2026 -->
 * RSS Pioneer in Robotics: Science and Systems 2024
