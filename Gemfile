@@ -38,3 +38,4 @@ end
 
 
 gem "webrick", ">= 1.8.2"
+gem "activesupport", ">= 6.1.7.3"
