@@ -36,6 +36,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 
-
-gem "webrick", ">= 1.8.2"
-gem "activesupport", ">= 6.1.7.3"
+gem "kramdown", ">= 2.3.0"
+gem "addressable", ">= 2.8.0"
+gem "nokogiri", ">= 1.16.5"

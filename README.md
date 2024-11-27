@@ -47,6 +47,32 @@ See more info at https://academicpages.github.io/
 1. If you encounter the error `Permission denied - bind(2) for 127.0.0.1:4000`, please run your command prompt as administrator.
 2. I encoutnered errors with a higher version of jekyll (e.g., 3.9.3). The jekyll version is set to `jekyll<3.9.2` in this repository (see also [Pin jekyll version <3.9.2](https://github.com/academicpages/academicpages.github.io/pull/944/commits/afefb7c37f89305063ce8fff39c4bf407d0120ac)).
 
+## To run locally in MacOS (not on GitHub Pages but on your own computer)
+### Install Chruby & Ruby-install
+1. Run `brew install chruby ruby-install`.
+2. Export chruby environment path into shell.
+```
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+```
+3. Change ruby version by `chruby ruby-3.1.3` and check by `ruby -v`.
+
+### Install jekyll & bundler (optional)
+1. Run `gem install jekyll bundler`.
+2. Check by `jekyll -v` and `bundle -v`.
+
+### Start live server
+1. Change directory to Website folder.
+2. Remove locked Gemfile by `rm Gemfile.lock`
+3. Generate new Gemfile by `bundle install`
+4. Run `bundle add webrick` since webrick is no longer no longer bundled gems or standard librarie in Ruby>=3.0.
+5. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. 
+
+### Note
+1. The ruby version `3.1.3` is a specific version that I found to work smoothly in both windows and MacOS. You could try other version using `ruby-install` and `chruby`.
+2. The install version via `ruby-install` is in the directory `~/.rubies`.
+3. Uninstall specific version of ruby: `rm -Rf ~/.rubies/ruby-3.1.3`
+
 # Changelog -- bugfixes and enhancements
 
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
