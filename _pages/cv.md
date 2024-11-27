@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+A full version of my CV can be downloaded [here](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/CV_YixiCAI.pdf).
+
 Education
 ======
 * B.Eng. in Automation, Beihang University, 2020
@@ -33,11 +35,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -45,17 +47,17 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Skills
+<!-- Skills
 ======
 * C++
 * Robotics
   * LiDAR SLAM
   * Mapping
-* CUDA C++
+* CUDA C++ -->
 
 Fellowships & Awards
 ======
-<!-- * Digital Futures Postdoc Fellowships, 2025-2026 -->
+* Digital Futures Postdoc Fellowships, 2025-2026
 * <strong> RSS Pioneer </strong> in Robotics: Science and Systems 2024
 * <strong>Best Paper Award Finalist</strong> in IEEE/ASME Transactions on Mechatronics, 2022
 * <strong>Y S and Christabel Lung Postgraduate Scholarship</strong> for Engineering Students 2020-2021.
@@ -66,7 +68,7 @@ Scholarly Reviews
 ======
 * IEEE Transactions on Robotics (T-RO)
 * Journal of Field Robotics (JFR)
-* IEEE/ASME Transactions on Mechatronics (TMECH)
+* IEEE/ASME Transactions on Mechatronics (T-MECH)
 * IEEE Robotics and Automation Letters (RAL)
 * IEEE Transactions on Intelligent Vehicles (TIV)
 * IEEE Transactions on Aerospace and Electronic Systems

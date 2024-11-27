@@ -1,10 +1,10 @@
 ---
-title: "MECH3433 Robotics, drones and autonomous ground vehicles"
+title: "MECH3433 Robotics, drones and autonomous ground vehicles (2020-2024)"
 collection: teaching
 type: "Teaching Assistant in Undergraduate Course"
 permalink: /teaching/2021-spring-teaching-1
 venue: "University of Hong Kong, Department of Mechanical Engineering"
-date: 2021-03-28
+date: 2024-03-28
 location: "HKSAR, China"
 ---
 
