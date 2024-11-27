@@ -12,10 +12,15 @@ I am a recent PhD graduate from [Mechatronics and Robotic Systems (MaRS) Laborat
 
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
+I will soon join KTH Royal Institute of Technology in Stockholm as a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/), collaborating with [Prof. Patric Jensfelt](https://www.kth.se/profile/patric) and [Dr. Olov Andersson](https://www.kth.se/profile/olovand) in the [Division of Robotics, Perception and Learning (RPL)](https://www.kth.se/is/rpl).
+
 # News
-- 2024.08.29： I have successfully defended my PhD!
-- 2024.05.03： It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
-- 2023.12.26： Our paper "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***[[Link]](https://journals.sagepub.com/doi/10.1177/02783649241227968).
+- 2024.11.27: Our paper "Swarm-LIO2: Decentralized Efficient LiDAR-inertial Odometry for UAV Swarms" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Preprint]](https://arxiv.org/abs/2409.17798)[[Video]](https://www.youtube.com/watch?v=Q7cJ9iRhlrY)[[Code]](https://github.com/hku-mars/Swarm-LIO2) 
+- 2024.11.03: Our paper "Large-scale Multi-session Point Cloud Map Merging" is accepted for publication in ***Robotics and Automation Letters(RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/10759717/)
+- 2024.08.29: I have successfully defended my PhD in "Towards Efficient Mapping for Robotics"!
+- 2024.06.30: Our paper "ROG-Map: An Efficient Robocentric Occupancy Grid Map for Large-scene and High-resolution LiDAR-based Motion Planning" is accepted for publication in ***IROS 2024***. [[Preprint]](https://arxiv.org/abs/2302.14819)[[Video]](https://youtube.com/watch?v=eDkwGXCea7w)[[Code]](https://github.com/hku-mars/ROG-Map)
+- 2024.05.03: It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
+- 2023.12.26: Our paper "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***[[Link]](https://journals.sagepub.com/doi/10.1177/02783649241227968).
 - 2023.09.30: My first-authored paper "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10286126)
 
 # Featured Publication
@@ -25,3 +30,5 @@ My research mainly focuses on LiDAR-based mapping with applications on Robotics.
 - Lin, J., Yuan, C., **Cai, Y.**, Li, H., Zou, Y., Hong, X., & Zhang, F. (2023). "Immesh: An immediate lidar localization and meshing framework." in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10304337) [[Github]](https://github.com/hku-mars/ImMesh) [[Video]](https://www.youtube.com/watch?v=pzT2fMwz428)
 - Chen, N., Kong, F., Xu, W., **Cai, Y.**, Li, H., He, D., Qin, Y. & Zhang, F. "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation," in ***Science Robotics***, 2023. [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf) [[Video]](https://www.youtube.com/watch?v=lrEJnJrRJsQ)
 - **Cai, Y.**, Xu, W., & Zhang, F, "ikd-Tree: An Incremental KD Tree for Robotic Applications". [[Link]](https://arxiv.org/pdf/2102.10808.pdf) [[Github]](https://github.com/hku-mars/ikd-Tree) [[Video]](https://www.youtube.com/watch?v=ueOunk03zxA)
+
+
