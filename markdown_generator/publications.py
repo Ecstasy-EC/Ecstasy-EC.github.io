@@ -118,8 +118,13 @@ for row, item in publications.iterrows():
             if (video_url[i] == '=' and video_url[i-1] == 'v'):
                 video_id = video_url[i+1:len(video_url)]
         # print(video_id)
-        md += "[![Watch the video](https://img.youtube.com/vi/" + video_id + "/maxresdefault.jpg)](" + video_url+ ")"
-        md += "\n"
+        if len(str(item.img)) > 5:
+            img_url = str(item.img)
+            md += "[![Watch the video](" +img_url + ")](" + video_url+ ")"
+            md += "\n"
+        else:
+            md += "[![Watch the video](https://img.youtube.com/vi/" + video_id + "/maxresdefault.jpg)](" + video_url+ ")"
+            md += "\n"
         
     md_filename = os.path.basename(md_filename)
        
