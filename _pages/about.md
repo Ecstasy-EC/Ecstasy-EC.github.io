@@ -12,7 +12,7 @@ I am a recent PhD graduate from [Mechatronics and Robotic Systems (MaRS) Laborat
 
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
-I will soon join KTH Royal Institute of Technology in Stockholm as a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/), collaborating with [Prof. Patric Jensfelt](https://www.kth.se/profile/patric) and [Dr. Olov Andersson](https://www.kth.se/profile/olovand) in the [Division of Robotics, Perception and Learning (RPL)](https://www.kth.se/is/rpl).
+Starting from Jan 2025, I will join KTH Royal Institute of Technology in Stockholm as a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/), collaborating with [Prof. Patric Jensfelt](https://www.kth.se/profile/patric) and [Dr. Olov Andersson](https://www.kth.se/profile/olovand) in the [Division of Robotics, Perception and Learning (RPL)](https://www.kth.se/is/rpl).
 
 # News
 - 2024.12.19: Our paper "Autonomous Tail-Sitter Flights in Unknown Environments" is accepted for publication in ***Transactions on Robotics (TRO)***.  [[Preprint]](https://arxiv.org/abs/2411.15003)[[Video]](https://www.youtube.com/watch?v=OvqhlB2h3k8)

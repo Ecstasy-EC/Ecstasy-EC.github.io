@@ -9,25 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-A full version of my CV can be downloaded [here](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/CV_YixiCAI.pdf).
+The latest version of my CV can be downloaded [here](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/CV_YixiCAI.pdf).
+
+Work experience
+======
+* Postdoctoral Fellow, KTH Royal Institute of Technology, 2025 - present
 
 Education
 ======
 * B.Eng. in Automation, Beihang University, 2020
 * Ph.D in Robotics, University of Hong Kong, 2024
 
-<!-- Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub -->
-  
 
 Publications
 ======
