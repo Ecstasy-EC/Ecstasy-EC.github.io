@@ -15,7 +15,7 @@ My research mainly focuses on LiDAR-based mapping with applications on Robotics.
 Starting from Jan 2025, I will join KTH Royal Institute of Technology in Stockholm as a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/), collaborating with [Prof. Patric Jensfelt](https://www.kth.se/profile/patric) and [Dr. Olov Andersson](https://www.kth.se/profile/olovand) in the [Division of Robotics, Perception and Learning (RPL)](https://www.kth.se/is/rpl).
 
 # News
-- 2024.12.19: Our paper "Autonomous Tail-Sitter Flights in Unknown Environments" is accepted for publication in ***Transactions on Robotics (TRO)***.  [[Preprint]](https://arxiv.org/abs/2411.15003)[[Video]](https://www.youtube.com/watch?v=OvqhlB2h3k8)
+- 2024.12.19: Our paper "Autonomous Tail-Sitter Flights in Unknown Environments" is accepted for publication in ***Transactions on Robotics (TRO)***.  [[Link]](https://ieeexplore.ieee.org/document/10829730)[[Video]](https://www.youtube.com/watch?v=OvqhlB2h3k8)
 - 2024.11.27: Our paper "Swarm-LIO2: Decentralized Efficient LiDAR-inertial Odometry for UAV Swarms" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10816004)[[Video]](https://www.youtube.com/watch?v=Q7cJ9iRhlrY)[[Code]](https://github.com/hku-mars/Swarm-LIO2) 
 - 2024.11.03: Our paper "Large-scale Multi-session Point Cloud Map Merging" is accepted for publication in ***Robotics and Automation Letters(RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/10759717/)[[Video]](https://www.youtube.com/watch?v=X2WSILJe-Ew)
 - 2024.08.29: I have successfully defended my PhD in "Towards Efficient Mapping for Robotics"! [[Thesis]](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/Thesis_YixiCAI.pdf)
