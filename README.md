@@ -66,7 +66,7 @@ echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
 2. Remove locked Gemfile by `rm Gemfile.lock`
 3. Generate new Gemfile by `bundle install`
 4. Run `bundle add webrick` since webrick is no longer no longer bundled gems or standard librarie in Ruby>=3.0.
-5. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. 
+5. Run `bundle exec jekyll serve -l` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. 
 
 ### Note
 1. The ruby version `3.1.3` is a specific version that I found to work smoothly in both windows and MacOS. You could try other version using `ruby-install` and `chruby`.
