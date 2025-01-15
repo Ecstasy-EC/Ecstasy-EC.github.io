@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2025.01.13: I joined RPL at KTH as postdoctoral fellow!
 - 2024.12.19: Our paper "Autonomous Tail-Sitter Flights in Unknown Environments" is accepted for publication in ***Transactions on Robotics (TRO)***.  [[Link]](https://ieeexplore.ieee.org/document/10829730)[[Video]](https://www.youtube.com/watch?v=OvqhlB2h3k8)
 - 2024.11.27: Our paper "Swarm-LIO2: Decentralized Efficient LiDAR-inertial Odometry for UAV Swarms" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10816004)[[Video]](https://www.youtube.com/watch?v=Q7cJ9iRhlrY)[[Code]](https://github.com/hku-mars/Swarm-LIO2) 
 - 2024.11.03: Our paper "Large-scale Multi-session Point Cloud Map Merging" is accepted for publication in ***Robotics and Automation Letters(RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/10759717/)[[Video]](https://www.youtube.com/watch?v=X2WSILJe-Ew)
