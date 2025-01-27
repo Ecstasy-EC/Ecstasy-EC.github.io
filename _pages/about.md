@@ -17,14 +17,16 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
-- 2025.01.13: I joined RPL at KTH as postdoctoral fellow!
+- 2025.01.27: Two papers are accepted in ICRA 2025! 
+  - Neural Surface Reconstruction and Rendering for LiDAR-Visual Systems [[Preprint]](https://arxiv.org/pdf/2409.10868)[[Video]](https://www.youtube.com/watch?v=XFzzAGVbzek)[[Code]](https://www.youtube.com/watch?v=XFzzAGVbzek)
+  - LVBA: LiDAR-Visual Bundle Adjustment for RGB Point Cloud Mapping [[Preprint]](https://arxiv.org/pdf/2409.10868)[[Video]](https://www.youtube.com/watch?v=jtIUBI0U76c)
+- 2025.01.13: I joined KTH-RPL as a Postdoctoral Fellow! [[Link]](https://www.digitalfutures.kth.se/research/postdoc-fellowships/postdoc-fellowships-ongoing-projects/towards-smart-cities-collaborative-spatial-perception-for-digital-twinning/) 
 - 2024.12.19: Our paper "Autonomous Tail-Sitter Flights in Unknown Environments" is accepted for publication in ***Transactions on Robotics (TRO)***.  [[Link]](https://ieeexplore.ieee.org/document/10829730)[[Video]](https://www.youtube.com/watch?v=OvqhlB2h3k8)
 - 2024.11.27: Our paper "Swarm-LIO2: Decentralized Efficient LiDAR-inertial Odometry for UAV Swarms" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10816004)[[Video]](https://www.youtube.com/watch?v=Q7cJ9iRhlrY)[[Code]](https://github.com/hku-mars/Swarm-LIO2) 
 - 2024.11.03: Our paper "Large-scale Multi-session Point Cloud Map Merging" is accepted for publication in ***Robotics and Automation Letters(RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/10759717/)[[Video]](https://www.youtube.com/watch?v=X2WSILJe-Ew)
 - 2024.08.29: I have successfully defended my PhD in "Towards Efficient Mapping for Robotics"! [[Thesis]](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/Thesis_YixiCAI.pdf)
 - 2024.06.30: Our paper "ROG-Map: An Efficient Robocentric Occupancy Grid Map for Large-scene and High-resolution LiDAR-based Motion Planning" is accepted for publication in ***IROS 2024***. [[Link]](https://ieeexplore.ieee.org/document/10802303/)[[Video]](https://youtube.com/watch?v=eDkwGXCea7w)[[Code]](https://github.com/hku-mars/ROG-Map)
 - 2024.05.03: It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
-- 2023.12.26: Our paper "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion" is accepted for publication in ***International Journal of Robotics Research (IJRR)***[[Link]](https://journals.sagepub.com/doi/10.1177/02783649241227968).
 
 # Featured Publication
 - **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10286126) [[Github]](https://github.com/hku-mars/D-Map) [[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
