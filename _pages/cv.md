@@ -49,7 +49,7 @@ Teaching
 
 Fellowships & Awards
 ======
-* Digital Futures Postdoc Fellowships, 2025-2026
+* <strong> Digital Futures Postdoc Fellowships </strong>, 2025-2026
 * <strong> RSS Pioneer </strong> in Robotics: Science and Systems 2024
 * <strong>Best Paper Award Finalist</strong> in IEEE/ASME Transactions on Mechatronics, 2022
 * <strong>Y S and Christabel Lung Postgraduate Scholarship</strong> for Engineering Students 2020-2021.
