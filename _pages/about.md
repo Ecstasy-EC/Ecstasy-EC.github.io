@@ -17,7 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
-- 2025.04.11: Our paper "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" is accepted in Robotics: Science and Systems (RSS) 2025!
+- 2025.04.11: Our paper "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" is accepted in ***Robotics: Science and Systems (RSS) 2025***!
 - 2025.01.29: Our paper "Safety-assured high-speed navigation for MAVs" is accpeted for publication in ***Science Robotics***!! [[Link]](https://www.science.org/doi/10.1126/scirobotics.ado6187)[[Video]](https://www.youtube.com/watch?v=GPHuzG0ANmI)[[Code]](https://github.com/hku-mars/SUPER)
 - 2025.01.27: Two papers are accepted in ICRA 2025! 
   - Neural Surface Reconstruction and Rendering for LiDAR-Visual Systems [[Preprint]](https://arxiv.org/pdf/2409.10868)[[Video]](https://www.youtube.com/watch?v=XFzzAGVbzek)[[Code]](https://www.youtube.com/watch?v=XFzzAGVbzek)
