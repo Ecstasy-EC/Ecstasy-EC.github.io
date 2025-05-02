@@ -58,11 +58,12 @@ Fellowships & Awards
 
 Scholarly Reviews
 ======
+* IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 * IEEE Transactions on Robotics (T-RO)
 * Journal of Field Robotics (JFR)
 * IEEE/ASME Transactions on Mechatronics (T-MECH)
 * IEEE Robotics and Automation Letters (RAL)
 * IEEE Transactions on Intelligent Vehicles (TIV)
 * IEEE Transactions on Aerospace and Electronic Systems
-* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2022-2024
-* IEEE International Conference on Robotics and Automation (ICRA) 2024
+* IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) 2022-2025
+* IEEE International Conference on Robotics and Automation (ICRA) 2024-2025

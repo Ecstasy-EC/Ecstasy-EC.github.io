@@ -27,8 +27,6 @@ My research mainly focuses on LiDAR-based mapping with applications on Robotics.
 - 2024.11.27: Our paper "Swarm-LIO2: Decentralized Efficient LiDAR-inertial Odometry for UAV Swarms" is accepted for publication in ***Transactions on Robotics (TRO)***. [[Link]](https://ieeexplore.ieee.org/document/10816004)[[Video]](https://www.youtube.com/watch?v=Q7cJ9iRhlrY)[[Code]](https://github.com/hku-mars/Swarm-LIO2) 
 - 2024.11.03: Our paper "Large-scale Multi-session Point Cloud Map Merging" is accepted for publication in ***Robotics and Automation Letters(RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/10759717/)[[Video]](https://www.youtube.com/watch?v=X2WSILJe-Ew)
 - 2024.08.29: I have successfully defended my PhD in "Towards Efficient LiDAR Mapping for Robotics"! [[Thesis]](https://raw.github.com/Ecstasy-EC/Ecstasy-EC.github.io/main/pdf/Thesis_YixiCAI.pdf)
-- 2024.06.30: Our paper "ROG-Map: An Efficient Robocentric Occupancy Grid Map for Large-scene and High-resolution LiDAR-based Motion Planning" is accepted for publication in ***IROS 2024***. [[Link]](https://ieeexplore.ieee.org/document/10802303/)[[Video]](https://youtube.com/watch?v=eDkwGXCea7w)[[Code]](https://github.com/hku-mars/ROG-Map)
-- 2024.05.03: It is my great honor to be accepted as a member of the 30-strong cohort of the [**RSS Pioneer Workshop 2024**](https://sites.google.com/view/rsspioneers2024/).
 
 # Featured Publication
 - **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10286126)[[Github]](https://github.com/hku-mars/D-Map)[[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
