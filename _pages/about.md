@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2025.06.25: Our paper "Temporal Overlapping Prediction: A Self-supervised Pre-training Method for LiDAR Moving Object Segmentation" is accepted in ***ICCV 2025***. [[Preprint]](https://arxiv.org/pdf/2503.07167)
 - 2025.06.16: Our paper "Efficient Swept Volume-Based Trajectory Generation for Arbitrary-Shaped Ground Robot Navigation" is accepted for publication in ***International Conference on Intelligent Robots and Systems (IROS 2025)***.[[Preprint](https://arxiv.org/abs/2504.07554)]
 - 2025.06.02: Our paper "FAST-LIVO2 on Resource-Constrained Platforms: LiDAR-Inertial-Visual Odometry with Efficient Memory and Computation" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.[[Preprint]](https://arxiv.org/abs/2501.13876)
 - 2025.04.11: Our paper "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" is accepted in ***Robotics: Science and Systems (RSS) 2025***. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
