@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics***.
 - 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics***. 
 - 2025.07.23: Our paper "Slope inspectionunder Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Preprint]](https://arxiv.org/pdf/2409.13985)
 - 2025.06.25: Our paper "Temporal Overlapping Prediction: A Self-supervised Pre-training Method for LiDAR Moving Object Segmentation" is accepted in ***ICCV 2025***. [[Preprint]](https://arxiv.org/pdf/2503.07167)
