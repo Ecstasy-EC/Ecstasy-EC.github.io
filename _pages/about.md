@@ -18,11 +18,11 @@ My research mainly focuses on LiDAR-based mapping with applications on Robotics.
 
 # News
 - 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics***.
-- 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics***. [[Paper]](https://ieeexplore.ieee.org/abstract/document/11129876)
-- 2025.07.23: Our paper "Slope inspectionunder Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Paper]](https://www.nature.com/articles/s41467-025-62801-y)
+- 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11129876)
+- 2025.07.23: Our paper "Slope inspectionunder Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Link]](https://www.nature.com/articles/s41467-025-62801-y)
 - 2025.06.25: Our paper "Temporal Overlapping Prediction: A Self-supervised Pre-training Method for LiDAR Moving Object Segmentation" is accepted in ***ICCV 2025***. [[Preprint]](https://arxiv.org/pdf/2503.07167)
 - 2025.06.16: Our paper "Efficient Swept Volume-Based Trajectory Generation for Arbitrary-Shaped Ground Robot Navigation" is accepted for publication in ***International Conference on Intelligent Robots and Systems (IROS 2025)***. [[Preprint](https://arxiv.org/abs/2504.07554)]
-- 2025.06.02: Our paper "FAST-LIVO2 on Resource-Constrained Platforms: LiDAR-Inertial-Visual Odometry with Efficient Memory and Computation" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Preprint]](https://arxiv.org/abs/2501.13876)
+- 2025.06.02: Our paper "FAST-LIVO2 on Resource-Constrained Platforms: LiDAR-Inertial-Visual Odometry with Efficient Memory and Computation" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11044436)
 - 2025.04.11: Our paper "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" is accepted in ***Robotics: Science and Systems (RSS) 2025***. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
 - 2025.01.29: Our paper "Safety-assured high-speed navigation for MAVs" is accepted for publication in ***Science Robotics***. [[Link]](https://www.science.org/doi/10.1126/scirobotics.ado6187)[[Video]](https://www.youtube.com/watch?v=GPHuzG0ANmI)[[Code]](https://github.com/hku-mars/SUPER)
 - 2025.01.27: Two papers are accepted in ICRA 2025! 
