@@ -17,8 +17,8 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
-- 2025.09.25: I have been appointed as Associate Editor for Robotics and Automation Letters (RA-L)!
-- 2025.09.18: Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method" is accepted in the Thirty-ninth Annual Conference on Neural Information Processing Systems ***(NeurIPS 2025)***. [[Preprint]](https://arxiv.org/abs/2508.17054)
+- 2025.09.25: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L). Many thanks to Prof. Sven Behnke for the invitation!
+- 2025.09.18: Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method" is accepted as ***Spotlight in NeurIPS 2025***. [[Preprint]](https://arxiv.org/abs/2508.17054)
 - 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics (T-Mech)***. [[Link]](https://ieeexplore.ieee.org/document/11155197)
 - 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics (T-RO)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11129876)
 - 2025.07.23: Our paper "Slope inspection under Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Link]](https://www.nature.com/articles/s41467-025-62801-y)
