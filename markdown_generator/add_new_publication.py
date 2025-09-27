@@ -5,15 +5,15 @@ publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 last_id = publications.shape[0]
 new_item=publications.loc[last_id-1].copy(deep=True)
 
-new_item.pub_date="2025-01-29"
-new_item.title="Safety-assured high-speed navigation for MAVs"
-new_item.venue="Science Robotics"
-new_item.excerpt="Micro air vehicles (MAVs) capable of high-speed autonomous navigation in unknown environments have the potential to improve applications like search and rescue and disaster relief, where timely and safe navigation is critical. However, achieving autonomous, safe, and high-speed MAV navigation faces systematic challenges, necessitating reduced vehicle weight and size for high-speed maneuvering, strong sensing capability for detecting obstacles at a distance, and advanced planning and control algorithms maximizing flight speed while ensuring obstacle avoidance. Here, we present the safety-assured high-speed aerial robot (SUPER), a compact MAV with a 280-millimeter wheelbase and a thrust-to-weight ratio greater than 5.0, enabling agile flight in cluttered environments. SUPER uses a lightweight three-dimensional light detection and ranging (LIDAR) sensor for accurate, long-range obstacle detection. To ensure high-speed flight while maintaining safety, we introduced an efficient planning framework that directly plans trajectories using LIDAR point clouds. In each replanning cycle, two trajectories were generated: one in known free spaces to ensure safety and another in both known and unknown spaces to maximize speed. Compared with baseline methods, this framework reduced failure rates by 35.9 times while flying faster and with half the planning time. In real-world tests, SUPER achieved autonomous flights at speeds exceeding 20 meters per second, successfully avoiding thin obstacles and navigating narrow spaces. SUPER represents a milestone in autonomous MAV systems, bridging the gap from laboratory research to real-world applications."
-new_item.citation="Ren, Y., Zhu, F., Lu, G., Cai, Y., Yin, L., Kong, F., Lin, J., Chen, N. & Zhang, F. (2025) Safety-assured high-speed navigation for MAVs. in <i>Science Robotics</i>."
-new_item.url_slug="SUPER"
-new_item.paper_url="https://www.science.org/doi/10.1126/scirobotics.ado6187"
-new_item.bibtex="https://scholar.googleusercontent.com/scholar.bib?q=info:YAMVgIEstUUJ:scholar.google.com/&output=citation&scisdr=ClEyjFtnEKyZihzbLfY:AFWwaeYAAAAAZ6DdNfatHIP23ereMlpME0chScs&scisig=AFWwaeYAAAAAZ6DdNU-6pDc0KWrBrsGIlallk0s&scisf=4&ct=citation&cd=-1"
-new_item.video="https://www.youtube.com/watch?v=GPHuzG0ANmI"
+new_item.pub_date="2025-09-18"
+new_item.title="DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method"
+new_item.venue="NeurIPS 2025 (Spotlight)"
+new_item.excerpt="Previous dominant methods for scene flow estimation focus mainly on input from two consecutive frames, neglecting valuable information in the temporal domain. While recent trends shift towards multi-frame reasoning, they suffer from rapidly escalating computational costs as the number of frames grows. To leverage temporal information more efficiently, we propose DeltaFlow, a lightweight 3D framework that captures motion cues via a Delta scheme, extracting temporal features with minimal computational cost, regardless of the number of frames. Additionally, scene flow estimation faces challenges such as imbalanced object class distributions and motion inconsistency. To tackle these issues, we introduce a Category-Balanced Loss to enhance learning across underrepresented classes and an Instance Consistency Loss to enforce coherent object motion, improving flow accuracy. Extensive evaluations on the Argoverse 2 and Waymo datasets show that Flow achieves state-of-the-art performance with up to 22% lower error and  faster inference compared to the next-best multi-frame supervised method, while also demonstrating a strong cross-domain generalization ability. The code is open-sourced at https://github.com/Kin-Zhang/DeltaFlow along with trained model weights."
+new_item.citation="Zhang, Q., Zhu, X., Zhang, Y., Cai, Y., Andersson, O., & Jensfelt, P. (2025). DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method. in <i>NeurIPS 2025 (Spotlight) </i>."
+new_item.url_slug="DELTAFLOW"
+new_item.paper_url="https://arxiv.org/abs/2508.17054"
+new_item.bibtex="https://scholar.googleusercontent.com/scholar.bib?q=info:tYOTq3QHnhAJ:scholar.google.com/&output=citation&scisdr=CgIZ17YeELusyB4BYPA:AAZF9b8AAAAAaNgHePC811Rgz-uVfzYOwizZOtY&scisig=AAZF9b8AAAAAaNgHeG0y-rmS0ZG6j-j2DLggI0U&scisf=4&ct=citation&cd=-1&hl=en"
+new_item.video="-"
 new_item.img="-"
 
 # new_item.pub_date="2025-01-27"
