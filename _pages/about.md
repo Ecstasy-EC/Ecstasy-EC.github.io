@@ -12,11 +12,12 @@ I am a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/) 
 
 Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/) from Department of Mechanical Engineering, University of Hong Kong under the supervision of Prof. Fu Zhang and co-supervised by Prof. James Lam. 
 During my PhD journey, I developed [ikd-Tree](https://github.com/hku-mars/ikd-Tree), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), and [D-Map](https://github.com/hku-mars/D-Map) which have been widely used in LiDAR community. 
-I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University (formerly known as Beijing University of Aeronautics and Astronautics) in 2020. 
+I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University in 2020. 
 
 My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2025.10.31: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment via Majorization-Minimization" is accepted for publication in ***International Journal of Robotics Research (IJRR)***. [[Preprint]](https://arxiv.org/pdf/2502.18801)
 - 2025.09.25: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L). Many thanks to Prof. Sven Behnke for the invitation!
 - 2025.09.18: Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method" is accepted as ***Spotlight in NeurIPS 2025***. [[Preprint]](https://arxiv.org/abs/2508.17054)
 - 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics (T-Mech)***. [[Link]](https://ieeexplore.ieee.org/document/11155197)
