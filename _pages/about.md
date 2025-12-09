@@ -14,9 +14,10 @@ Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic S
 During my PhD journey, I developed [ikd-Tree](https://github.com/hku-mars/ikd-Tree), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), and [D-Map](https://github.com/hku-mars/D-Map) which have been widely used in LiDAR community. 
 I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University in 2020. 
 
-My research mainly focuses on LiDAR-based mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
+My research mainly focuses on multimodal sensor mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2025.12.09: Our paper "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
 - 2025.11.15: Our paper "Enabling multirotor UAVs to perch, land and detach with standard propeller guards" is accepted for publication in ***Nature Communications Engineering***. [[Link]](https://www.nature.com/articles/s44172-025-00514-2)
 - 2025.10.31: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment via Majorization-Minimization" is accepted for publication in ***International Journal of Robotics Research (IJRR)***. [[Preprint]](https://arxiv.org/pdf/2502.18801)
 - 2025.09.25: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L). Many thanks to Prof. Sven Behnke for the invitation!
