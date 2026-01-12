@@ -14,7 +14,7 @@ Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic S
 During my PhD journey, I developed [ikd-Tree](https://github.com/hku-mars/ikd-Tree), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), and [D-Map](https://github.com/hku-mars/D-Map) which have been widely used in LiDAR community. 
 I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University in 2020. 
 
-My research mainly focuses on multimodal sensor mapping with applications on Robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
+My current research mainly focuses on dynamic mapping and semantic mapping using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
 - 2025.12.09: Our paper "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
@@ -29,16 +29,15 @@ My research mainly focuses on multimodal sensor mapping with applications on Rob
 - 2025.06.16: Our paper "Efficient Swept Volume-Based Trajectory Generation for Arbitrary-Shaped Ground Robot Navigation" is accepted for publication in ***International Conference on Intelligent Robots and Systems (IROS 2025)***. [[Link](https://ieeexplore.ieee.org/document/11247085)]
 - 2025.06.02: Our paper "FAST-LIVO2 on Resource-Constrained Platforms: LiDAR-Inertial-Visual Odometry with Efficient Memory and Computation" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11044436)
 - 2025.04.11: Our paper "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" is accepted in ***Robotics: Science and Systems (RSS) 2025***. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
-- 2025.01.29: Our paper "Safety-assured high-speed navigation for MAVs" is accepted for publication in ***Science Robotics***. [[Link]](https://www.science.org/doi/10.1126/scirobotics.ado6187)[[Video]](https://www.youtube.com/watch?v=GPHuzG0ANmI)[[Code]](https://github.com/hku-mars/SUPER)
 
 # Featured Publication
+($^\ast$: Co-first Author, $\dagger$: Corresponding Author, $\ddagger$: Project Leader)
 - **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10286126)[[Github]](https://github.com/hku-mars/D-Map)[[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
-- Xu, W., **Cai, Y. (co-first author)**, He, D., Lin, J., & Zhang, F, "FAST-LIO2: Fast Direct LiDAR-Inertial Odometry" in ***IEEE Transactions on Robotics (TRO)***, 2022. [[Link]](https://ieeexplore.ieee.org/document/9697912y)[[Github(3k stars)]](https://github.com/hku-mars/FAST_LIO)[[Video]](https://www.youtube.com/watch?v=2OvjGnxszf8)
-- Xie, Y., **Cai, Y. (Project Leader)**, Zhang, Y., Yang, L., & Pan, J., "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" in ***Robotics: Science and Systems (RSS)*** 2025. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
-- Ali W., **Cai, Y.**, Jensfelt, P., & Nguyen, T., "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" in ***Robotics and Automation Letters(RA-L)***, 2026.
+- Xu, W.$^\ast$, **Cai, Y.$^\ast$**, He, D., Lin, J., & Zhang, F, "FAST-LIO2: Fast Direct LiDAR-Inertial Odometry" in ***IEEE Transactions on Robotics (TRO)***, 2022. [[Link]](https://ieeexplore.ieee.org/document/9697912y)[[Github]](https://github.com/hku-mars/FAST_LIO)[[Video]](https://www.youtube.com/watch?v=2OvjGnxszf8)
+- Xie, Y., **Cai, Y.$^\ddagger$**, Zhang, Y., Yang, L., & Pan, J., "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" in ***Robotics: Science and Systems (RSS)*** 2025. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
+- Ali W., **Cai, Y.$^\dagger$**, Jensfelt, P., & Nguyen, T., "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" in ***Robotics and Automation Letters(RA-L)***, 2026.
 - Lu, G., **Cai, Y.**, Chen, N., Kong, F., Ren, Y., & Zhang, F., "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights" in ***International Journal of Robotics Research (IJRR)***, 2023. [[Link]](https://doi.org/10.1177/02783649231207655)[[Video]](https://www.youtube.com/watch?v=2x_bLbVuyrk)
 - Ren, Y., Zhu, F., Lu, G., **Cai, Y.**, Yin, L., Kong, F., Lin, J., Chen, N. & Zhang, F. "Safety-assured high-speed navigation for MAVs" in ***Science Robotics***, 2025. [[Link]](https://www.science.org/doi/10.1126/scirobotics.ado6187)[[Github]](https://github.com/hku-mars/SUPER)[[Video]](https://www.youtube.com/watch?v=GPHuzG0ANmI)
 - Chen, N., Kong, F., Xu, W., **Cai, Y.**, Li, H., He, D., Qin, Y. & Zhang, F. "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation," in ***Science Robotics***, 2023. [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf)[[Video]](https://www.youtube.com/watch?v=lrEJnJrRJsQ)
 - **Cai, Y.**, Xu, W., & Zhang, F, "ikd-Tree: An Incremental KD Tree for Robotic Applications". [[Link]](https://arxiv.org/pdf/2102.10808.pdf)[[Github]](https://github.com/hku-mars/ikd-Tree)[[Video]](https://www.youtube.com/watch?v=ueOunk03zxA)
-- Corresponding author: <i class="fa-regular fa-envelope"></i>
 
