@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My current research mainly focuses on **dynamic mapping** and **semantic mapping** using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2026.01.27: Our Paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" is accepted for publication in ***International Journal of Robotics Research***. 
 - 2026.01.19: Our paper "DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler Guidance" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Preprint]](https://arxiv.org/abs/2508.18506)
 - 2025.12.09: Our paper "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://ieeexplore.ieee.org/document/11345986)
 - 2025.11.15: Our paper "Enabling multirotor UAVs to perch, land and detach with standard propeller guards" is accepted for publication in ***Nature Communications Engineering***. [[Link]](https://www.nature.com/articles/s44172-025-00514-2)
