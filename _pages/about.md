@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My current research mainly focuses on **dynamic mapping** and **semantic mapping** using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2026.05.17: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" was selected among the top three contributions published in IJRR during Q3 2025-2026. Highlight as honorable mention! (Link coming soon).
 - 2026.04.27: Our paper "Learning to Localize Reference Trajectories in Image-Space for Visual Navigation" is accepted for publication in ***Robotics: Science and Systems (RSS) 2026***. [[Preprint]](https://arxiv.org/abs/2602.18803)
 - 2026.03.03: Our paper "PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous Driving" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://maxiuw.github.io/prix/)
 - 2026.01.27: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" is accepted for publication in ***International Journal of Robotics Research***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649261425266)
