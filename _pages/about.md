@@ -17,7 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My current research mainly focuses on **dynamic mapping** and **semantic mapping** using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
-- 2026.05.17: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" was selected among the top three contributions published in IJRR during Q3 2025-2026. Highlight as honorable mention! (Link coming soon).
+- 2026.05.17: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" was selected among the top three contributions published in IJRR during Q3 2025-2026. Highlight as honorable mention!
 - 2026.04.27: Our paper "Learning to Localize Reference Trajectories in Image-Space for Visual Navigation" is accepted for publication in ***Robotics: Science and Systems (RSS) 2026***. [[Preprint]](https://arxiv.org/abs/2602.18803)
 - 2026.03.03: Our paper "PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous Driving" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://maxiuw.github.io/prix/)
 - 2026.01.27: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" is accepted for publication in ***International Journal of Robotics Research***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649261425266)
@@ -30,9 +30,6 @@ My current research mainly focuses on **dynamic mapping** and **semantic mapping
 - 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics (T-Mech)***. [[Link]](https://ieeexplore.ieee.org/document/11155197)
 - 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics (T-RO)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11129876)[[Video]](https://www.youtube.com/watch?v=Fnv2BweCs9U)
 - 2025.07.23: Our paper "Slope inspection under Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Link]](https://www.nature.com/articles/s41467-025-62801-y)
-- 2025.06.25: Our paper "Temporal Overlapping Prediction: A Self-supervised Pre-training Method for LiDAR Moving Object Segmentation" is accepted in ***ICCV 2025***. [[Link]](https://openaccess.thecvf.com/content/ICCV2025/papers/Miao_Temporal_Overlapping_Prediction_A_Self-supervised_Pre-training_Method_for_LiDAR_Moving_ICCV_2025_paper.pdf)
-- 2025.06.16: Our paper "Efficient Swept Volume-Based Trajectory Generation for Arbitrary-Shaped Ground Robot Navigation" is accepted for publication in ***International Conference on Intelligent Robots and Systems (IROS 2025)***. [[Link](https://ieeexplore.ieee.org/document/11247085)]
-- 2025.06.02: Our paper "FAST-LIVO2 on Resource-Constrained Platforms: LiDAR-Inertial-Visual Odometry with Efficient Memory and Computation" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11044436)
 
 # Featured Publication
 ($^\ast$: Co-first Author, $\dagger$: Corresponding Author, $\ddagger$: Project Leader)
