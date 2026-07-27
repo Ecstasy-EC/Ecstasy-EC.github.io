@@ -17,6 +17,7 @@ I received my Bachelor's Degree in School of Automation Science and Electrical E
 My current research mainly focuses on **dynamic mapping** and **semantic mapping** using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
+- 2026.07.13: I give an Early Career talk titled "An Efficiency-Centric View of Map Representations for Robotics" in RSS Workshop *From Perception to Action: Representation-Centric Robot Autonomy* [[Link]](https://rcba-workshop.github.io/rss2026/). 
 - 2026.05.17: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping" was selected among the top three contributions published in IJRR during Q3 2025-2026. Highlight as honorable mention!
 - 2026.04.27: Our paper "Learning to Localize Reference Trajectories in Image-Space for Visual Navigation" is accepted for publication in ***Robotics: Science and Systems (RSS) 2026***. [[Preprint]](https://arxiv.org/abs/2602.18803)
 - 2026.03.03: Our paper "PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous Driving" is accepted for publication in ***Robotics and Automation Letters (RA-L)***. [[Link]](https://maxiuw.github.io/prix/)
@@ -27,9 +28,6 @@ My current research mainly focuses on **dynamic mapping** and **semantic mapping
 - 2025.10.31: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment via Majorization-Minimization" is accepted for publication in ***International Journal of Robotics Research (IJRR)***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649251398874)
 - 2025.09.25: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L). Many thanks to Prof. Sven Behnke for the invitation!
 - 2025.09.18: Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method" is accepted as ***Spotlight in NeurIPS 2025***. [[Link]](https://neurips.cc/virtual/2025/loc/san-diego/poster/117870)
-- 2025.07.25: Our paper "A Survey on LiDAR-based Autonomous Aerial Vehicles" is accepted for publication in ***Transactions on Mechatronics (T-Mech)***. [[Link]](https://ieeexplore.ieee.org/document/11155197)
-- 2025.07.24: Our paper "A High-Payload Robotic Hopper Powered by Bidirectional Thrusters" is accepted for publication in ***Transactions on Robotics (T-RO)***. [[Link]](https://ieeexplore.ieee.org/abstract/document/11129876)[[Video]](https://www.youtube.com/watch?v=Fnv2BweCs9U)
-- 2025.07.23: Our paper "Slope inspection under Dense Vegetation Using LiDAR-based Quadrotors" is accepted for publication in ***Nature Communications***. [[Link]](https://www.nature.com/articles/s41467-025-62801-y)
 
 # Featured Publication
 ($^\ast$: Co-first Author, $\dagger$: Corresponding Author, $\ddagger$: Project Leader)
