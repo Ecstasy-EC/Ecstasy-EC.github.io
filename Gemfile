@@ -37,8 +37,8 @@ end
 
 
 gem "kramdown", ">= 2.3.0"
-gem "addressable", ">= 2.8.0"
-gem "nokogiri", ">= 1.16.5"
-gem "activesupport", ">= 6.1.7.5"
+gem "addressable", ">= 2.9.0"
+gem "nokogiri", ">= 1.19.4"
+gem "activesupport", ">= 7.2.3.2"
 
 gem "webrick", "~> 1.9"
