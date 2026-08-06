@@ -53,14 +53,30 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Site palette — KTH blue accent on a light cool canvas.
+   These five are the only values to touch when changing the look; everything
+   below derives from them, and _sass/_theme.scss only arranges them. */
+$accent-color               : #004791; // KTH blue
+$accent-color-hover         : #003366;
+$accent-color-wash          : mix(#fff, $accent-color, 93%); // badge + hover fills
+$page-tint                  : #f4f6f9; // canvas behind the content
+$card-color                 : #fff;    // the content itself
+$muted-color                : #5b6570; // dates, affiliations, meta
 
-$primary-color              : #7a8288;
+/* Highlight colour for bold text: research interests, venue names, own author
+   name. Deliberately warm rather than a second blue — bold text in the link
+   colour reads as a broken link. 6.91:1 on white, and warm-vs-blue stays
+   distinguishable without relying on hue alone. */
+$emphasis-color             : #8f4520; // deep copper
+
+$body-color                 : $page-tint;
+$background-color           : $page-tint;
+$code-background-color      : #f6f8fa;
+$code-background-color-dark : $light-gray;
+$text-color                 : #2f363d; // darker than the theme's $dark-gray, for contrast
+$border-color               : #e1e7ee; // cool-tinted, visible against $page-tint
+
+$primary-color              : $accent-color;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -90,11 +106,13 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : $accent-color;
+$link-color-hover           : $accent-color-hover;
+$link-color-visited         : mix(#fff, $accent-color, 18%);
+/* Nav sits at text weight and only picks up the accent on hover, so the
+   masthead does not compete with the links in the content. */
+$masthead-link-color        : $text-color;
+$masthead-link-color-hover  : $accent-color;
 
 
 /*

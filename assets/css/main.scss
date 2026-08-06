@@ -40,3 +40,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Site colour + structure. Last on purpose: it overrides the theme and vendor
+// partials at equal specificity, including their print rules.
+@import "theme";

@@ -73,18 +73,20 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.paperurltext and post.paperbibtex%}
-    <p><i>Recommended citation:</i></p>
-    <p>{{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurltext }}</a> <a href="{{ post.paperbibtex }}">[bib]</a>  </p>
-    {% elsif post.citation and post.paperurl and post.paperurltext %}
-    <p><i>Recommended citation:</i></p>
-    <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurltext }}</u></a></p>    
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% comment %}
+      Paper links. This replaced the "Recommended citation:" block that used to
+      sit here — the citation prose is gone, but the links it carried are kept,
+      since these were the only [pdf]/[bib] links on the list page.
+
+      The `citation:` front matter is now unrendered here and on the detail
+      pages; it is left in place because _includes/archive-single-cv.html still
+      uses it, and so the citation text is not lost if you want it back.
+    {% endcomment %}
+    {% if post.paperurl or post.paperbibtex %}
+      <p class="paper-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.paperurltext | default: "[pdf]" }}</a>{% endif %}
+        {% if post.paperbibtex %}<a href="{{ post.paperbibtex }}">[bib]</a>{% endif %}
+      </p>
     {% endif %}
 
     {% if has_media %}

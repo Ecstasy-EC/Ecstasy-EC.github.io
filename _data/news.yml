@@ -1,0 +1,58 @@
+# News shown on the homepage (_pages/about.md).
+# Rendered by _includes/news.html — edit here, not in about.md.
+#
+# Newest first; the order in this file is the order on the page.
+#
+# Per entry:
+#   date  (required) 'YYYY.MM.DD'. Rendered as a fixed-width accent label, so
+#                    keep the format identical across entries or the text
+#                    column will not line up.
+#   text  (required) markdown — links, *italic* and ***bold italic*** all work.
+#                    Rendered inline, so do not use block elements here.
+#
+# Quoting: the generator emits whatever YAML quoting each string needs. If you
+# add an entry by hand and it contains a colon-space or starts with a quote,
+# wrap it in single quotes and double any internal single quote.
+
+- date: 2026.07.13
+  text: 'I gave an Early Career talk titled "An Efficiency-Centric View of Map Representations
+    for Robotics" in RSS Workshop *From Perception to Action: Representation-Centric
+    Robot Autonomy* [[Link]](https://rcba-workshop.github.io/rss2026/).'
+- date: 2026.05.17
+  text: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping"
+    was selected among the top three contributions published in IJRR during Q3 2025-2026.
+    Highlight as honorable mention!
+- date: 2026.04.27
+  text: 'Our paper "Learning to Localize Reference Trajectories in Image-Space for
+    Visual Navigation" is accepted for publication in ***Robotics: Science and Systems
+    (RSS) 2026***. [[Preprint]](https://arxiv.org/abs/2602.18803)'
+- date: 2026.03.03
+  text: 'Our paper "PRIX: Learning to Plan from Raw Pixels for End-to-End Autonomous
+    Driving" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
+    [[Link]](https://maxiuw.github.io/prix/)'
+- date: 2026.01.27
+  text: Our paper "Memory-Efficient Boundary Map for Large-Scale Occupancy Grid Mapping"
+    is accepted for publication in ***International Journal of Robotics Research***.
+    [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649261425266)
+- date: 2026.01.19
+  text: 'Our paper "DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler
+    Guidance" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
+    [[Link]](https://ieeexplore.ieee.org/abstract/document/11373844)'
+- date: 2025.12.09
+  text: 'Our paper "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long
+    Mapping" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
+    [[Link]](https://ieeexplore.ieee.org/document/11345986)'
+- date: 2025.11.15
+  text: Our paper "Enabling multirotor UAVs to perch, land and detach with standard
+    propeller guards" is accepted for publication in ***Nature Communications Engineering***.
+    [[Link]](https://www.nature.com/articles/s44172-025-00514-2)
+- date: 2025.10.31
+  text: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment
+    via Majorization-Minimization" is accepted for publication in ***International
+    Journal of Robotics Research (IJRR)***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649251398874)
+- date: 2025.09.25
+  text: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L).
+    Many thanks to Prof. Sven Behnke for the invitation!
+- date: 2025.09.18
+  text: 'Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method"
+    is accepted as ***Spotlight in NeurIPS 2025***. [[Link]](https://neurips.cc/virtual/2025/loc/san-diego/poster/117870)'

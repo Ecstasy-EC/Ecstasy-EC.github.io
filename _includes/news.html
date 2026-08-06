@@ -1,0 +1,15 @@
+{% comment %}
+  Renders the homepage News list from _data/news.yml.
+  The date is pulled out of the prose so it can be styled as a fixed-width
+  accent label; see .news-item in _sass/_theme.scss.
+  Entries stay in file order, so keep _data/news.yml newest-first.
+{% endcomment %}
+
+<ul class="news-list">
+  {% for item in site.data.news %}
+    <li class="news-item">
+      <span class="news-item__date">{{ item.date }}</span>
+      <span class="news-item__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+    </li>
+  {% endfor %}
+</ul>

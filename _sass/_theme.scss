@@ -1,0 +1,391 @@
+/* ==========================================================================
+   THEME
+   Colour and structure layered on top of minimal-mistakes.
+
+   The palette lives in _variables.scss ($accent-color, $page-tint, ...) — this
+   file only arranges it. Imported last from assets/css/main.scss so it wins
+   against the vendor partials at equal specificity.
+   ========================================================================== */
+
+$card-radius : 6px;
+$card-pad    : 1.25em;
+$card-shadow : 0 1px 2px rgba(#0b1b33, 0.04), 0 10px 24px -14px rgba(#0b1b33, 0.14);
+
+/* Wider than $medium (768px) so cards only gain their roomier padding once
+   there is actually room for it. */
+$card-roomy  : 48em;
+
+
+/* --------------------------------------------------------------------------
+   Canvas and cards
+
+   $background-color is the page tint (set in _variables.scss), so the content
+   columns need an explicit white ground. The card goes on the inner wrappers,
+   never on .page / .archive themselves: those two carry susy's prefix/suffix
+   padding, and overriding it would collapse the grid.
+   -------------------------------------------------------------------------- */
+
+.page__inner-wrap,
+.archive__inner-wrap,
+.sidebar > div {
+  padding: $card-pad;
+  background-color: $card-color;
+  border: 1px solid $border-color;
+  border-radius: $card-radius;
+  box-shadow: $card-shadow;
+}
+
+.page__inner-wrap,
+.archive__inner-wrap {
+  @media screen and (min-width: $card-roomy) {
+    padding: 1.75em 2em;
+  }
+}
+
+/* Grid adjustments, desktop only.
+
+   susy leaves ~75px of empty gutter between the sidebar and the content, and
+   reserves suffix(2 of 12) — about 17% of #main — as dead space to the right of
+   single pages, for a right sidebar this site never uses. Two consequences:
+   the 15%-wide sidebar is too narrow for the bio once its card is padded
+   ("Postdoctoral Fellow, KTH RPL" rewraps), and the featured-publication rows
+   are cramped because a 15em media column eats the same line length.
+
+   So: widen the sidebar into the gutter, and reclaim most of the right margin
+   — the card now supplies that visual breathing room instead. The widths must
+   keep sidebar + its 1.69% margin + .page at or under 100%, or the float drops
+   below the sidebar.
+
+   Percentages are of #main, matching susy's own output. */
+.sidebar > div {
+  @include breakpoint($large) {
+    padding: 1em 0.9em;
+  }
+}
+
+@include breakpoint($large) {
+
+  .sidebar {
+    width: 19%;
+  }
+
+  /* .page carries suffix(2 of 12) = 16.95% right padding and .archive carries
+     none, so the two layouts' cards ended at different x. Same values for both
+     now, so the card edge is continuous as you move between pages. */
+  .page,
+  .archive {
+    width: 79.3%; // 19% + 1.69% margin + 79.3% = 99.99%
+    padding-left: 1.5%;
+    padding-right: 7%;
+  }
+}
+
+/* The archive layout has no header element of its own, so its title sits
+   directly inside the card and needs the same top reset .page__title gets. */
+.archive__inner-wrap > .page__title {
+  margin-top: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Masthead: white bar over the tint
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  background-color: $card-color;
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 3px rgba(#0b1b33, 0.05);
+}
+
+/* .greedy-nav inherits $background-color, which is now the tint — that would
+   paint a grey strip across the white masthead. */
+.greedy-nav {
+  background: transparent;
+
+  /* the site title */
+  .visible-links li:first-child a {
+    color: $accent-color;
+  }
+
+  /* dropdown for links that overflow the bar */
+  .hidden-links {
+    background: $card-color;
+    border: 1px solid $border-color;
+    box-shadow: 0 6px 20px -6px rgba(#0b1b33, 0.25);
+
+    &:before {
+      border-bottom-color: $border-color;
+    }
+
+    &:after {
+      border-bottom-color: $card-color;
+    }
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Section headings: an accent rule instead of a full-width grey line
+
+   about.md uses `#` for News and Featured Publication, so these are h1s inside
+   .page__content, not h2s. Style both — h2 already has a grey border-bottom
+   from _page.scss which we replace here.
+   -------------------------------------------------------------------------- */
+
+.page__content {
+
+  h1,
+  h2 {
+    position: relative;
+    margin-top: 1.75em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid $border-color;
+
+    /* short accent segment sitting on top of the grey rule */
+    &:after {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 2.25em;
+      height: 2px;
+      content: "";
+      background-color: $accent-color;
+    }
+  }
+
+  /* No :first-child margin reset here on purpose. Every page whose
+     .page__content opens with a heading is a publication detail page, where
+     that heading sits directly below the <header> block (title, venue,
+     [pdf] [bib]) and needs the full margin to clear it. The homepage opens
+     with a paragraph, so it never benefited from a reset anyway. */
+}
+
+/* The page title (About me, Publications, ...) gets the same treatment. */
+.page__title {
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid $border-color;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 2.25em;
+    height: 2px;
+    content: "";
+    background-color: $accent-color;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Bold text as a highlight
+
+   Everything authored as **bold** is one of three things on this site:
+   a research interest (_pages/about.md), a venue name (_data/news.yml,
+   _data/featured.yml, publication front matter), or Yixi's own name in an
+   author list (_data/featured.yml). All three want the same "this is the
+   important bit" signal, so they share one colour.
+
+   Two selectors because the layouts differ: .page__inner-wrap covers single
+   pages — including a detail page's <header>, which sits outside
+   .page__content — and .archive__item covers the list pages.
+
+   "Read more" is markup'd <strong><a>, and the anchor's own colour rule beats
+   inherited colour, so it stays a blue link rather than turning copper.
+   -------------------------------------------------------------------------- */
+
+.page__inner-wrap strong,
+.archive__item strong {
+  color: $emphasis-color;
+}
+
+
+/* --------------------------------------------------------------------------
+   News list
+
+   Rendered by _includes/news.html from _data/news.yml. The date becomes a
+   fixed-width label so the entries scan vertically instead of reading as one
+   undifferentiated block of bullets.
+   -------------------------------------------------------------------------- */
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-item {
+  padding: 0.55em 0;
+  border-top: 1px solid mix($card-color, $border-color, 35%);
+
+  &:first-child {
+    border-top: 0;
+    padding-top: 0.2em;
+  }
+
+  &:before {
+    display: none; /* the theme's list marker */
+  }
+
+  @media screen and (min-width: $card-roomy) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.news-item__date {
+  display: block;
+  font-family: $monospace;
+  font-size: 0.78em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+  color: $accent-color;
+  white-space: nowrap;
+
+  @media screen and (min-width: $card-roomy) {
+    flex: 0 0 6.5em;
+    width: 6.5em;
+  }
+}
+
+.news-item__text {
+  display: block;
+  min-width: 0; /* lets long lines wrap rather than stretch the flex row */
+}
+
+
+/* --------------------------------------------------------------------------
+   Sidebar
+   -------------------------------------------------------------------------- */
+
+.sidebar {
+
+  .author__name {
+    margin-bottom: 0.15em;
+  }
+
+  .author__bio {
+    color: $muted-color;
+  }
+
+  /* the icon column: accent, so the link list reads as navigation */
+  .author__urls {
+
+    .fas,
+    .fab,
+    .far,
+    .fal,
+    .ai,
+    .icon-x {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    /* location / employer lines carry an icon but no link */
+    li {
+      color: $muted-color;
+    }
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Publications and featured entries: accent on interaction
+   -------------------------------------------------------------------------- */
+
+.archive__item-title {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* "Published in <venue>, <year>" under each entry */
+.archive__item-body > p:first-of-type {
+  color: $muted-color;
+}
+
+/* [pdf] [bib] row, in place of the old "Recommended citation:" block.
+   Rendered by _includes/archive-single.html and _layouts/single.html. */
+.paper-links {
+
+  a {
+    margin-right: 0.6em;
+    white-space: nowrap;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.media-figure__frame--image {
+  transition: border-color 0.2s ease-in-out;
+
+  &:hover {
+    border-color: mix($card-color, $accent-color, 55%);
+  }
+}
+
+.featured-pub__marker {
+  color: mix($card-color, $accent-color, 45%);
+}
+
+
+/* --------------------------------------------------------------------------
+   Footer: darker than the canvas so the page has a bottom edge
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+  color: $muted-color;
+  /* Has to sit clearly below $page-tint, or the page just fades out. */
+  background-color: mix(#fff, $accent-color, 86%);
+  border-top: 1px solid mix(#fff, $accent-color, 74%);
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: $muted-color;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Print: the tint and the card chrome only waste toner
+   -------------------------------------------------------------------------- */
+
+@media print {
+
+  .page__inner-wrap,
+  .archive__inner-wrap,
+  .sidebar > div {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .masthead,
+  .page__footer {
+    background: none;
+    box-shadow: none;
+  }
+}
