@@ -9,6 +9,7 @@ paperurl: 'https://ieeexplore.ieee.org/document/9676487'
 paperurltext: '[pdf]'
 paperbibtex: 'https://scholar.googleusercontent.com/scholar.bib?q=info:du0fIlL7gzMJ:scholar.google.com/&amp;output=citation&amp;scisdr=Cm3pnLgeELeo6o21y_Y:AGlGAw8AAAAAZHCw0_ZU1F1LBr0HFwXcGrti7aI&amp;scisig=AGlGAw8AAAAAZHCw01DaVbIlsAWE3aBw26Rh1Ws&amp;scisf=4&amp;ct=citation&amp;cd=-1'
 citation: 'W. Xu, D. He, Y. Cai and F. Zhang, Robots&apos; State Estimation and Observability Analysis Based on Statistical Motion Models,&quot; in <i>IEEE Transactions on Control Systems Technology</i>, vol. 30, no. 5, pp. 2030-2045, Sept. 2022, doi: 10.1109/TCST.2021.3133080.&quot;'
+image: 'figures/tcst-robot.jpg'
 ---
 ## Abstract
 

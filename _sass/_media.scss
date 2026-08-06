@@ -1,6 +1,6 @@
 /* ==========================================================================
    MEDIA FIGURES
-   Videos / GIFs shown beside publication text.
+   YouTube videos shown beside publication text.
    Used by _includes/media-figure.html, archive-single.html and
    featured-publications.html.
    ========================================================================== */
@@ -15,10 +15,9 @@ $media-side-by-side: 46em;   /* ~736px */
 
 .media-figure {
   margin: 0 0 1em;
-  line-height: 0; /* removes the inline descender gap under img/video */
+  line-height: 0; /* removes the inline descender gap under the thumbnail */
 
-  img,
-  video {
+  img {
     display: block;
     width: 100%;
     height: auto;
@@ -48,6 +47,23 @@ $media-side-by-side: 46em;   /* ~736px */
   }
 }
 
+/* Frame variant for paper figures: white letterbox rather than video black */
+.media-figure__frame--image {
+  background-color: #fff;
+  border: 1px solid $border-color;
+}
+
+/* Stills are letterboxed, never cropped — a cropped figure loses content.
+   Absolute so it fills the frame whether or not it is wrapped in a link. */
+.media-figure__still {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .media-figure__facade {
   display: block;
   cursor: pointer;
@@ -59,6 +75,12 @@ $media-side-by-side: 46em;   /* ~736px */
   &:focus .media-figure__thumb {
     box-shadow: none !important;
     transform: scale(1.03);
+  }
+
+  /* no zoom on figures — scaling a letterboxed diagram just looks wrong */
+  &:hover .media-figure__still,
+  &:focus .media-figure__still {
+    box-shadow: none !important;
   }
 
   &:hover .media-figure__play,
@@ -246,7 +268,7 @@ $media-side-by-side: 46em;   /* ~736px */
 }
 
 /* --------------------------------------------------------------------------
-   Print: a video is useless on paper, but its poster/thumbnail is not
+   Print: the play button is meaningless on paper, but the thumbnail is not
    -------------------------------------------------------------------------- */
 
 @media print {

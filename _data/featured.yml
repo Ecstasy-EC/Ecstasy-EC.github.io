@@ -8,10 +8,15 @@
 #   venue    (optional) italic bold
 #   year     (optional)
 #   links    (optional) list of {text, url}; rendered as [text]
-#   gif / mp4 / video   (optional) media shown beside the entry:
-#       gif:   featured/dmap.gif          -> file under images/
-#       mp4:   featured/dmap.mp4          -> silent autoplaying loop (much smaller)
-#       video: m5QQPbkYYnA                -> YouTube ID, click-to-load
+#   video    (optional) YouTube ID -> click-to-load player beside the entry.
+#                       This is the 11 characters after `?v=` in a YouTube URL,
+#                       e.g. https://www.youtube.com/watch?v=m5QQPbkYYnA
+#                       Omit it and the entry renders as text only.
+#   image    (optional) a still shown beside the entry instead, e.g. Figure 1 of
+#                       the paper. Path is relative to images/, so
+#                       'figures/dogflow.jpg' -> images/figures/dogflow.jpg
+#                       Letterboxed into the same 16:9 frame as the videos.
+#                       `video` wins if both are set.
 #   media_side (optional) left | right    -> defaults to right
 #
 # NOTE: single-quoted YAML keeps backslashes literal, which the MathJax
@@ -21,10 +26,7 @@
   title: 'Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors'
   venue: 'IEEE Transactions on Robotics (TRO)'
   year: 2023
-  # Drop a clip in beside this entry by uncommenting one of these:
-  #   gif: 'featured/dmap.gif'      # put the file at images/featured/dmap.gif
-  #   mp4: 'featured/dmap.mp4'      # ~20x smaller than a GIF, autoplays silently
-  #   video: 'm5QQPbkYYnA'          # or just embed the YouTube one
+  video: 'm5QQPbkYYnA'
   links:
     - text: 'Link'
       url: 'https://ieeexplore.ieee.org/document/10286126'
@@ -37,6 +39,7 @@
   title: 'FAST-LIO2: Fast Direct LiDAR-Inertial Odometry'
   venue: 'IEEE Transactions on Robotics (TRO)'
   year: 2022
+  video: '2OvjGnxszf8'
   links:
     - text: 'Link'
       url: 'https://ieeexplore.ieee.org/document/9697912y'
@@ -49,6 +52,7 @@
   title: 'GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction'
   venue: 'Robotics: Science and Systems (RSS)'
   year: 2025
+  video: 'Qi7QpDyayKs'
   links:
     - text: 'Link'
       url: 'https://roboticsconference.org/program/papers/30/'
@@ -59,6 +63,7 @@
 
 - authors: 'Ali, W., **Cai, Y.$^\dagger$**, Jensfelt, P., & Nguyen, T.'
   title: 'ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping'
+  image: 'figures/probper-lilo.png'
   venue: 'Robotics and Automation Letters (RA-L)'
   year: 2026
   links:
@@ -67,6 +72,7 @@
 
 - authors: 'Khoche, A., Zhang, Q., **Cai, Y.$^\dagger$**, Mansouri, S.S. & Jensfelt, P.'
   title: 'DoGFlow: Self-supervised Lidar Scene Flow via Cross-modal Doppler Guidance'
+  image: 'figures/dogflow.jpg'
   venue: 'Robotics and Automation Letters (RA-L)'
   year: 2026
   links:
@@ -75,6 +81,7 @@
 
 - authors: 'Wozniak, M.K., Liu, L., **Cai, Y.$^\dagger$** & Jensfelt, P.'
   title: 'Learning to plan from raw pixels for end-to-end autonomous driving.'
+  image: 'figures/prix.jpg'
   venue: 'Robotics and Automation Letters (RA-L)'
   year: 2026
   links:
@@ -85,6 +92,7 @@
   title: 'Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights'
   venue: 'International Journal of Robotics Research (IJRR)'
   year: 2023
+  video: '2x_bLbVuyrk'
   links:
     - text: 'Link'
       url: 'https://doi.org/10.1177/02783649231207655'
@@ -95,6 +103,7 @@
   title: 'Safety-assured high-speed navigation for MAVs'
   venue: 'Science Robotics'
   year: 2025
+  video: 'GPHuzG0ANmI'
   links:
     - text: 'Link'
       url: 'https://www.science.org/doi/10.1126/scirobotics.ado6187'
@@ -107,6 +116,7 @@
   title: 'A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation,'
   venue: 'Science Robotics'
   year: 2023
+  video: 'lrEJnJrRJsQ'
   links:
     - text: 'Link'
       url: 'https://mars.hku.hk/papers/scirobotics.ade4538_.pdf'
@@ -115,6 +125,7 @@
 
 - authors: '**Cai, Y.**, Xu, W., & Zhang, F'
   title: 'ikd-Tree: An Incremental KD Tree for Robotic Applications'
+  video: 'ueOunk03zxA'
   links:
     - text: 'Link'
       url: 'https://arxiv.org/pdf/2102.10808.pdf'

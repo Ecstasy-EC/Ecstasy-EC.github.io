@@ -1,6 +1,6 @@
 {% comment %}
   Renders the homepage "Featured Publication" list from _data/featured.yml.
-  Each entry may carry a gif / mp4 / video, shown beside the text.
+  Each entry may carry a `video` (YouTube ID) or an `image`, shown beside the text.
   See the header comment in _data/featured.yml for the field reference.
 {% endcomment %}
 
@@ -8,7 +8,7 @@
   {% for pub in site.data.featured %}
 
     {% assign has_media = false %}
-    {% if pub.gif or pub.mp4 or pub.video %}
+    {% if pub.video or pub.image %}
       {% assign has_media = true %}
     {% endif %}
     {% assign media_side = pub.media_side | default: "right" %}
@@ -17,7 +17,7 @@
 
       {% if has_media %}
         <div class="featured-pub__media">
-          {% include media-figure.html youtube=pub.video mp4=pub.mp4 gif=pub.gif poster=pub.media_poster alt=pub.title %}
+          {% include media-figure.html youtube=pub.video image=pub.image alt=pub.title %}
         </div>
       {% endif %}
 

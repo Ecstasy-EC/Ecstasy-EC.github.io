@@ -13,16 +13,15 @@
 {% endif %}
 
 {% comment %}
-  Optional media beside the entry. Set any one of these in a publication's
-  front matter (see _publications/*.md):
+  Optional video beside the entry. Set this in a publication's front matter
+  (see _publications/*.md):
     video: m5QQPbkYYnA        # YouTube ID -> click-to-load embed
-    mp4:   demo.mp4           # silent autoplaying loop
-    gif:   demo.gif           # plain image
+    image: figures/top.jpg    # or a still (e.g. Fig. 1), letterboxed
     media_side: left          # optional, defaults to right
-  Entries with none of these render exactly as before.
+  `video` wins if both are set. Entries with neither render as before.
 {% endcomment %}
 {% assign has_media = false %}
-{% if post.video or post.mp4 or post.gif %}
+{% if post.video or post.image %}
   {% assign has_media = true %}
 {% endif %}
 {% assign media_side = post.media_side | default: "right" %}
@@ -31,7 +30,7 @@
   <article class="archive__item{% if has_media %} archive__item--with-media archive__item--media-{{ media_side }}{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if has_media %}
       <div class="archive__item-media">
-        {% include media-figure.html youtube=post.video mp4=post.mp4 gif=post.gif poster=post.media_poster alt=post.title %}
+        {% include media-figure.html youtube=post.video image=post.image alt=post.title href=post.paperurl %}
       </div>
       <div class="archive__item-body">
     {% endif %}
