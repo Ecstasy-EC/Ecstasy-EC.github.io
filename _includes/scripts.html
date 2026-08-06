@@ -1,4 +1,37 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  /* YouTube click-to-load facades (see _includes/media-figure.html).
+     Nothing is requested from YouTube until the visitor clicks a thumbnail.
+     With JS disabled the facade stays a plain link to youtube.com, so it still works. */
+  (function () {
+    var facades = document.querySelectorAll('.js-yt-facade');
+    if (!facades.length) return;
+
+    Array.prototype.forEach.call(facades, function (facade) {
+      var link = facade.querySelector('.media-figure__facade');
+      if (!link) return;
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        var id = facade.getAttribute('data-yt-id');
+        if (!id) return;
+
+        var iframe = document.createElement('iframe');
+        /* nocookie host keeps YouTube from setting tracking cookies */
+        iframe.src = 'https://www.youtube-nocookie.com/embed/' +
+                     encodeURIComponent(id) + '?autoplay=1&rel=0';
+        iframe.title = link.getAttribute('aria-label') || 'YouTube video';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+        iframe.setAttribute('frameborder', '0');
+
+        facade.replaceChild(iframe, link);
+      });
+    });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

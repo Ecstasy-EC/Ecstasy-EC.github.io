@@ -33,6 +33,7 @@
 @import "page";
 @import "archive";
 @import "sidebar";
+@import "media"; // must follow "archive" to override its link/image rules
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";

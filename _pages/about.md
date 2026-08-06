@@ -10,7 +10,7 @@ redirect_from:
 
 I am a [Digital Future Postdoctoral Fellow](https://www.digitalfutures.kth.se/) in the [Department of Robotics, Perception and Learning (RPL)](https://www.kth.se/is/rpl) at KTH Royal Institute of Technology, collaborating with [Prof. Patric Jensfelt](https://www.kth.se/profile/patric) and [Dr. Olov Andersson](https://www.kth.se/profile/olovand).
 
-Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/) from Department of Mechanical Engineering, University of Hong Kong under the supervision of Prof. Fu Zhang and co-supervised by Prof. James Lam. 
+Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/) from Department of Mechanical Engineering, University of Hong Kong under the supervision of [Prof. Fu Zhang](https://mech.hku.hk/academic-staff/zhang-f/) and co-supervised by [Prof. James Lam](https://mech.hku.hk/academic-staff/lam-j/). 
 During my PhD journey, I developed [ikd-Tree](https://github.com/hku-mars/ikd-Tree), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), and [D-Map](https://github.com/hku-mars/D-Map) which have been widely used in LiDAR community. 
 I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University in 2020. 
 
@@ -31,14 +31,6 @@ My current research mainly focuses on **dynamic mapping** and **semantic mapping
 
 # Featured Publication
 ($^\ast$: Co-first Author, $\dagger$: Corresponding Author, $\ddagger$: Project Leader)
-- **Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F., "Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors" in ***IEEE Transactions on Robotics (TRO)***, 2023. [[Link]](https://ieeexplore.ieee.org/document/10286126)[[Github]](https://github.com/hku-mars/D-Map)[[Video]](https://www.youtube.com/watch?v=m5QQPbkYYnA)
-- Xu, W.$^\ast$, **Cai, Y.$^\ast$**, He, D., Lin, J., & Zhang, F, "FAST-LIO2: Fast Direct LiDAR-Inertial Odometry" in ***IEEE Transactions on Robotics (TRO)***, 2022. [[Link]](https://ieeexplore.ieee.org/document/9697912y)[[Github]](https://github.com/hku-mars/FAST_LIO)[[Video]](https://www.youtube.com/watch?v=2OvjGnxszf8)
-- Xie, Y., **Cai, Y.$^\ddagger$**, Zhang, Y., Yang, L., & Pan, J., "GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction" in ***Robotics: Science and Systems (RSS)*** 2025. [[Link]](https://roboticsconference.org/program/papers/30/)[[Code]](https://github.com/JohannaXie/GauSS-MI)[[Video]](https://www.youtube.com/watch?v=Qi7QpDyayKs)
-- Ali, W., **Cai, Y.$^\dagger$**, Jensfelt, P., & Nguyen, T., "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping" in ***Robotics and Automation Letters (RA-L)***, 2026. [[Link]](https://ieeexplore.ieee.org/document/11345986)
-- Khoche, A., Zhang, Q., **Cai, Y.$^\dagger$**, Mansouri, S.S. & Jensfelt, P., "DoGFlow: Self-supervised Lidar Scene Flow via Cross-modal Doppler Guidance" in ***Robotics and Automation Letters (RA-L)***, 2026. [[Preprint]](https://arxiv.org/abs/2508.18506)
-- Wozniak, M.K., Liu, L., **Cai, Y.$^\dagger$** & Jensfelt, P., "Learning to plan from raw pixels for end-to-end autonomous driving." in ***Robotics and Automation Letters (RA-L)***, 2026. [[Preprint]](https://arxiv.org/abs/2507.17596)
-- Lu, G., **Cai, Y.**, Chen, N., Kong, F., Ren, Y., & Zhang, F., "Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights" in ***International Journal of Robotics Research (IJRR)***, 2023. [[Link]](https://doi.org/10.1177/02783649231207655)[[Video]](https://www.youtube.com/watch?v=2x_bLbVuyrk)
-- Ren, Y., Zhu, F., Lu, G., **Cai, Y.**, Yin, L., Kong, F., Lin, J., Chen, N. & Zhang, F. "Safety-assured high-speed navigation for MAVs" in ***Science Robotics***, 2025. [[Link]](https://www.science.org/doi/10.1126/scirobotics.ado6187)[[Github]](https://github.com/hku-mars/SUPER)[[Video]](https://www.youtube.com/watch?v=GPHuzG0ANmI)
-- Chen, N., Kong, F., Xu, W., **Cai, Y.**, Li, H., He, D., Qin, Y. & Zhang, F. "A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation," in ***Science Robotics***, 2023. [[Link]](https://mars.hku.hk/papers/scirobotics.ade4538_.pdf)[[Video]](https://www.youtube.com/watch?v=lrEJnJrRJsQ)
-- **Cai, Y.**, Xu, W., & Zhang, F, "ikd-Tree: An Incremental KD Tree for Robotic Applications". [[Link]](https://arxiv.org/pdf/2102.10808.pdf)[[Github]](https://github.com/hku-mars/ikd-Tree)[[Video]](https://www.youtube.com/watch?v=ueOunk03zxA)
+
+{% include featured-publications.html %}
 

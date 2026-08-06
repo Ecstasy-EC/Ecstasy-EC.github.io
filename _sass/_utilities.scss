@@ -258,11 +258,6 @@ body:hover .visually-hidden button {
     color: $tumblr-color;
   }
 
-  .fa-twitter,
-  .fa-twitter-square {
-    color: $twitter-color;
-  }
-
   .fa-vimeo,
   .fa-vimeo-square {
     color: $vimeo-color;
@@ -282,6 +277,26 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+}
+
+/*
+   X inline SVG logo
+   Font Awesome 5.5.0 ships no `fa-x-twitter` glyph, so the mark is inlined
+   via _includes/icon-x.html. These rules make it sit like an `fa` icon.
+   ========================================================================== */
+
+.icon-x {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em; /* same baseline offset Font Awesome uses */
+  fill: currentColor;
+}
+
+/* fixed-width variant, matching `fa-fw` for aligned icon lists */
+.icon-x--fw {
+  width: 1.25em;
+  text-align: center;
 }
 
 

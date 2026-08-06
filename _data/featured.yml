@@ -1,0 +1,124 @@
+# Featured publications shown on the homepage (_pages/about.md).
+# Rendered by _includes/featured-publications.html — edit here, not in about.md.
+#
+# Per entry:
+#   authors  (required) markdown; **bold** your own name, $^\ast$ / $\dagger$ /
+#                       $\ddagger$ render via MathJax
+#   title    (required) quoted in the output automatically
+#   venue    (optional) italic bold
+#   year     (optional)
+#   links    (optional) list of {text, url}; rendered as [text]
+#   gif / mp4 / video   (optional) media shown beside the entry:
+#       gif:   featured/dmap.gif          -> file under images/
+#       mp4:   featured/dmap.mp4          -> silent autoplaying loop (much smaller)
+#       video: m5QQPbkYYnA                -> YouTube ID, click-to-load
+#   media_side (optional) left | right    -> defaults to right
+#
+# NOTE: single-quoted YAML keeps backslashes literal, which the MathJax
+# markers need. Do not switch these to double quotes.
+
+- authors: '**Cai, Y.**, Kong F., Ren Y., Zhu F., Lin J., & Zhang, F.'
+  title: 'Occupancy Grid Mapping without Ray-Casting for High-resolution Sensors'
+  venue: 'IEEE Transactions on Robotics (TRO)'
+  year: 2023
+  # Drop a clip in beside this entry by uncommenting one of these:
+  #   gif: 'featured/dmap.gif'      # put the file at images/featured/dmap.gif
+  #   mp4: 'featured/dmap.mp4'      # ~20x smaller than a GIF, autoplays silently
+  #   video: 'm5QQPbkYYnA'          # or just embed the YouTube one
+  links:
+    - text: 'Link'
+      url: 'https://ieeexplore.ieee.org/document/10286126'
+    - text: 'Github'
+      url: 'https://github.com/hku-mars/D-Map'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=m5QQPbkYYnA'
+
+- authors: 'Xu, W.$^\ast$, **Cai, Y.$^\ast$**, He, D., Lin, J., & Zhang, F'
+  title: 'FAST-LIO2: Fast Direct LiDAR-Inertial Odometry'
+  venue: 'IEEE Transactions on Robotics (TRO)'
+  year: 2022
+  links:
+    - text: 'Link'
+      url: 'https://ieeexplore.ieee.org/document/9697912y'
+    - text: 'Github'
+      url: 'https://github.com/hku-mars/FAST_LIO'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=2OvjGnxszf8'
+
+- authors: 'Xie, Y., **Cai, Y.$^\ddagger$**, Zhang, Y., Yang, L., & Pan, J.'
+  title: 'GauSS-MI: Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction'
+  venue: 'Robotics: Science and Systems (RSS)'
+  year: 2025
+  links:
+    - text: 'Link'
+      url: 'https://roboticsconference.org/program/papers/30/'
+    - text: 'Code'
+      url: 'https://github.com/JohannaXie/GauSS-MI'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=Qi7QpDyayKs'
+
+- authors: 'Ali, W., **Cai, Y.$^\dagger$**, Jensfelt, P., & Nguyen, T.'
+  title: 'ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long Mapping'
+  venue: 'Robotics and Automation Letters (RA-L)'
+  year: 2026
+  links:
+    - text: 'Link'
+      url: 'https://ieeexplore.ieee.org/document/11345986'
+
+- authors: 'Khoche, A., Zhang, Q., **Cai, Y.$^\dagger$**, Mansouri, S.S. & Jensfelt, P.'
+  title: 'DoGFlow: Self-supervised Lidar Scene Flow via Cross-modal Doppler Guidance'
+  venue: 'Robotics and Automation Letters (RA-L)'
+  year: 2026
+  links:
+    - text: 'Preprint'
+      url: 'https://arxiv.org/abs/2508.18506'
+
+- authors: 'Wozniak, M.K., Liu, L., **Cai, Y.$^\dagger$** & Jensfelt, P.'
+  title: 'Learning to plan from raw pixels for end-to-end autonomous driving.'
+  venue: 'Robotics and Automation Letters (RA-L)'
+  year: 2026
+  links:
+    - text: 'Preprint'
+      url: 'https://arxiv.org/abs/2507.17596'
+
+- authors: 'Lu, G., **Cai, Y.**, Chen, N., Kong, F., Ren, Y., & Zhang, F.'
+  title: 'Trajectory Generation and Tracking Control for Aggressive Tail-Sitter Flights'
+  venue: 'International Journal of Robotics Research (IJRR)'
+  year: 2023
+  links:
+    - text: 'Link'
+      url: 'https://doi.org/10.1177/02783649231207655'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=2x_bLbVuyrk'
+
+- authors: 'Ren, Y., Zhu, F., Lu, G., **Cai, Y.**, Yin, L., Kong, F., Lin, J., Chen, N. & Zhang, F.'
+  title: 'Safety-assured high-speed navigation for MAVs'
+  venue: 'Science Robotics'
+  year: 2025
+  links:
+    - text: 'Link'
+      url: 'https://www.science.org/doi/10.1126/scirobotics.ado6187'
+    - text: 'Github'
+      url: 'https://github.com/hku-mars/SUPER'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=GPHuzG0ANmI'
+
+- authors: 'Chen, N., Kong, F., Xu, W., **Cai, Y.**, Li, H., He, D., Qin, Y. & Zhang, F.'
+  title: 'A self-rotating, single-actuated UAV with extended sensor field of view for autonomous navigation,'
+  venue: 'Science Robotics'
+  year: 2023
+  links:
+    - text: 'Link'
+      url: 'https://mars.hku.hk/papers/scirobotics.ade4538_.pdf'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=lrEJnJrRJsQ'
+
+- authors: '**Cai, Y.**, Xu, W., & Zhang, F'
+  title: 'ikd-Tree: An Incremental KD Tree for Robotic Applications'
+  links:
+    - text: 'Link'
+      url: 'https://arxiv.org/pdf/2102.10808.pdf'
+    - text: 'Github'
+      url: 'https://github.com/hku-mars/ikd-Tree'
+    - text: 'Video'
+      url: 'https://www.youtube.com/watch?v=ueOunk03zxA'

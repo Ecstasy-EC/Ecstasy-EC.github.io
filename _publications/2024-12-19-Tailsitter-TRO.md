@@ -9,6 +9,7 @@ paperurl: 'https://ieeexplore.ieee.org/document/10829730'
 paperurltext: '[pdf]'
 paperbibtex: 'https://scholar.googleusercontent.com/scholar.bib?q=info:51g-l06bAyQJ:scholar.google.com/&amp;output=citation&amp;scisdr=ClE7y4DKEJnQqt0db0w:AFWwaeYAAAAAZ2Qbd0zj95J_tNdAmCWRJlLbPKs&amp;scisig=AFWwaeYAAAAAZ2Qbd8b8wEL1wR7UXNFXX0mGHmI&amp;scisf=4&amp;ct=citation&amp;cd=-1'
 citation: 'Lu, G., Ren, Y., Zhu, F., Li, H., Xue, R., Cai, Y., ... &amp; Zhang, F. (2024). Autonomous Tail-Sitter Flights in Unknown Environments. in <i>IEEE Transactions on Robotics</i>.'
+video: 'OvqhlB2h3k8'
 ---
 ## Abstract
 

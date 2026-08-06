@@ -1,0 +1,98 @@
+{% comment %}
+  Reusable media block for publications and featured entries.
+
+  Renders exactly one of the following, in priority order:
+    youtube = YouTube video ID  -> click-to-load facade (no third-party request until clicked)
+    mp4     = path to .mp4      -> silent autoplaying loop (GIF-like, far smaller)
+    gif     = path to .gif/.png -> plain image
+
+  Optional:
+    alt     = alt / aria text
+    poster  = still image shown before the mp4 plays
+
+  Paths may be absolute URLs, site-root paths ("/images/x.gif"), or bare
+  filenames ("x.gif"), which resolve against /images/ like the theme's teasers.
+
+  Usage:
+    {% include media-figure.html youtube="m5QQPbkYYnA" alt=post.title %}
+    {% include media-figure.html gif="featured/dmap.gif" alt="D-Map demo" %}
+{% endcomment %}
+
+{% include base_path %}
+
+{% assign media_alt = include.alt | default: "" | strip_html | escape %}
+
+{% if include.youtube %}
+
+  <div class="media-figure">
+    <div class="media-figure__frame js-yt-facade" data-yt-id="{{ include.youtube }}">
+      <a class="media-figure__facade"
+         href="https://www.youtube.com/watch?v={{ include.youtube }}"
+         rel="noopener"
+         aria-label="{% if media_alt != '' %}Play video: {{ media_alt }}{% else %}Play video{% endif %}">
+        <img class="media-figure__thumb"
+             src="https://i.ytimg.com/vi/{{ include.youtube }}/hqdefault.jpg"
+             alt="{{ media_alt }}"
+             loading="lazy"
+             decoding="async">
+        <span class="media-figure__play" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+
+{% elsif include.mp4 %}
+
+  {% assign mp4_raw = include.mp4 %}
+  {% assign mp4_lead = mp4_raw | slice: 0 %}
+  {% if mp4_raw contains "://" %}
+    {% assign mp4_src = mp4_raw %}
+  {% elsif mp4_lead == "/" %}
+    {% assign mp4_src = mp4_raw | prepend: base_path %}
+  {% else %}
+    {% assign mp4_src = mp4_raw | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+
+  {% assign poster_src = "" %}
+  {% if include.poster %}
+    {% assign poster_raw = include.poster %}
+    {% assign poster_lead = poster_raw | slice: 0 %}
+    {% if poster_raw contains "://" %}
+      {% assign poster_src = poster_raw %}
+    {% elsif poster_lead == "/" %}
+      {% assign poster_src = poster_raw | prepend: base_path %}
+    {% else %}
+      {% assign poster_src = poster_raw | prepend: "/images/" | prepend: base_path %}
+    {% endif %}
+  {% endif %}
+
+  <div class="media-figure">
+    <video class="media-figure__video"
+           autoplay loop muted playsinline
+           preload="metadata"
+           {% if poster_src != "" %}poster="{{ poster_src }}"{% endif %}
+           {% if media_alt != "" %}aria-label="{{ media_alt }}"{% endif %}>
+      <source src="{{ mp4_src }}" type="video/mp4">
+    </video>
+  </div>
+
+{% elsif include.gif %}
+
+  {% assign gif_raw = include.gif %}
+  {% assign gif_lead = gif_raw | slice: 0 %}
+  {% if gif_raw contains "://" %}
+    {% assign gif_src = gif_raw %}
+  {% elsif gif_lead == "/" %}
+    {% assign gif_src = gif_raw | prepend: base_path %}
+  {% else %}
+    {% assign gif_src = gif_raw | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+
+  <div class="media-figure">
+    <img class="media-figure__img"
+         src="{{ gif_src }}"
+         alt="{{ media_alt }}"
+         loading="lazy"
+         decoding="async">
+  </div>
+
+{% endif %}
