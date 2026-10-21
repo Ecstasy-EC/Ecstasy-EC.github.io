@@ -14,7 +14,7 @@
 # add an entry by hand and it contains a colon-space or starts with a quote,
 # wrap it in single quotes and double any internal single quote.
 
-- data: 2026.10.11
+- date: 2026.10.11
   text: 'Our paper "D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Link]](https://arxiv.org/pdf/2604.12436).'
 - date: 2026.07.13
   text: 'I gave an Early Career talk titled "An Efficiency-Centric View of Map Representations
