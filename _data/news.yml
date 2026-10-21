@@ -14,6 +14,8 @@
 # add an entry by hand and it contains a colon-space or starts with a quote,
 # wrap it in single quotes and double any internal single quote.
 
+- data: 2026.10.11
+  text: 'Our paper "D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Link]](https://arxiv.org/pdf/2604.12436).'
 - date: 2026.07.13
   text: 'I gave an Early Career talk titled "An Efficiency-Centric View of Map Representations
     for Robotics" in RSS Workshop *From Perception to Action: Representation-Centric
@@ -50,9 +52,3 @@
   text: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment
     via Majorization-Minimization" is accepted for publication in ***International
     Journal of Robotics Research (IJRR)***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649251398874)
-- date: 2025.09.25
-  text: Start to serve as Associate Editor for Robotics and Automation Letters (RA-L).
-    Many thanks to Prof. Sven Behnke for the invitation!
-- date: 2025.09.18
-  text: 'Our paper "DeltaFlow: An Efficient Multi-frame Scene Flow Estimation Method"
-    is accepted as ***Spotlight in NeurIPS 2025***. [[Link]](https://neurips.cc/virtual/2025/loc/san-diego/poster/117870)'
