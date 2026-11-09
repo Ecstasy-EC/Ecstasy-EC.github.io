@@ -13,9 +13,10 @@
 # Quoting: the generator emits whatever YAML quoting each string needs. If you
 # add an entry by hand and it contains a colon-space or starts with a quote,
 # wrap it in single quotes and double any internal single quote.
-
+- date: 2026.11.04
+  text: 'Our paper "Learned Controllers for Agile Quadrotors in Pursuit-Evasion Games" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Preprint]](https://arxiv.org/abs/2506.02849).'
 - date: 2026.10.11
-  text: 'Our paper "D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Link]](https://arxiv.org/pdf/2604.12436).'
+  text: 'Our paper "D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Preprint]](https://arxiv.org/pdf/2604.12436).'
 - date: 2026.07.13
   text: 'I gave an Early Career talk titled "An Efficiency-Centric View of Map Representations
     for Robotics" in RSS Workshop *From Perception to Action: Representation-Centric
@@ -44,11 +45,3 @@
   text: 'Our paper "ProbPer-LiLo: Probabilistic Persistency Modeling for Life-Long
     Mapping" is accepted for publication in ***Robotics and Automation Letters (RA-L)***.
     [[Link]](https://ieeexplore.ieee.org/document/11345986)'
-- date: 2025.11.15
-  text: Our paper "Enabling multirotor UAVs to perch, land and detach with standard
-    propeller guards" is accepted for publication in ***Nature Communications Engineering***.
-    [[Link]](https://www.nature.com/articles/s44172-025-00514-2)
-- date: 2025.10.31
-  text: Our paper "Efficient and Distributed Large-Scale Point Cloud Bundle Adjustment
-    via Majorization-Minimization" is accepted for publication in ***International
-    Journal of Robotics Research (IJRR)***. [[Link]](https://journals.sagepub.com/doi/full/10.1177/02783649251398874)
