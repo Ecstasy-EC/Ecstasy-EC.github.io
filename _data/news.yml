@@ -14,7 +14,7 @@
 # add an entry by hand and it contains a colon-space or starts with a quote,
 # wrap it in single quotes and double any internal single quote.
 - date: 2026.11.04
-  text: 'Our paper "Learned Controllers for Agile Quadrotors in Pursuit-Evasion Games" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Preprint]](https://arxiv.org/abs/2506.02849).'
+  text: 'Our paper "Learned Controllers for Agile Quadrotors in Pursuit-Evasion Games" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Preprint]](https://arxiv.org/abs/2506.02849) [[Video]](https://www.youtube.com/watch?v=U1tWZzHgv60).'
 - date: 2026.10.11
   text: 'Our paper "D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs" is accepted for publication in ***Robotics and Automation Letters (RA-L)*** [[Link]](https://ieeexplore.ieee.org/document/11753951).'
 - date: 2026.07.13
