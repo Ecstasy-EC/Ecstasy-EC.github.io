@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", "232", group: :jekyll_plugins
+gem "github-pages", "233", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
@@ -37,8 +37,8 @@ end
 
 
 gem "kramdown", ">= 2.3.0"
-gem "addressable", ">= 2.9.0"
-gem "nokogiri", ">= 1.19.4"
-gem "activesupport", ">= 7.2.3.2"
+gem "addressable", ">= 2.9.2"
+gem "nokogiri", ">= 1.19.7"
+gem "activesupport", ">= 8.1.4.1"
 
 gem "webrick", "~> 1.9"
