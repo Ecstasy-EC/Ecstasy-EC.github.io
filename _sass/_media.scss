@@ -54,14 +54,18 @@ $media-side-by-side: 46em;   /* ~736px */
 }
 
 /* Stills are letterboxed, never cropped — a cropped figure loses content.
-   Absolute so it fills the frame whether or not it is wrapped in a link. */
-.media-figure__still {
+   Absolute so it fills the frame whether or not it is wrapped in a link.
+   Nested under .media-figure so it outranks `.media-figure img { height: auto }`
+   above — otherwise tall figures get cropped and wide ones sit at the top. */
+.media-figure .media-figure__still {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
+  border-radius: 0;
 }
 
 .media-figure__facade {
