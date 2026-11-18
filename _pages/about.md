@@ -14,7 +14,7 @@ Previously I obtained my Ph.D. degree in Robotics at [Mechatronics and Robotic S
 During my PhD journey, I developed [ikd-Tree](https://github.com/hku-mars/ikd-Tree), [FAST-LIO2](https://github.com/hku-mars/FAST_LIO), and [D-Map](https://github.com/hku-mars/D-Map) which have been widely used in LiDAR community. 
 I received my Bachelor's Degree in School of Automation Science and Electrical Engineering, Beihang University in 2020. 
 
-My current research mainly focuses on **dynamic mapping** and **semantic mapping** using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
+My current research mainly focuses on **scene representation** (e.g., scene graphs, life-long mapping) using multimodal sensor with applications on robotics. I am deeply interested in exploring elegant representations of the world, which would definitely unlock the boundless possibilities in Robotics.
 
 # News
 
